@@ -7,8 +7,8 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
-            <option value="C:\Users\Ryan\AndroidStudioProjects\MessageMonster" />
-            <option value="C:\Users\Ryan\AndroidStudioProjects\MessageMonster\MessageMonster" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/MessageMonster" />
           </set>
         </option>
       </GradleProjectSettings>
