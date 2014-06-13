@@ -9,6 +9,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v13.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -16,10 +17,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.parse.ParseUser;
+
 import java.util.Locale;
 
 
 public class MainActivity extends Activity implements ActionBar.TabListener {
+
+    public static final String TAG = MainActivity.class.getSimpleName();
 
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
@@ -41,10 +46,14 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Intent intent = new Intent(this, LoginActivity.class);
-        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
-        startActivity(intent);
+        ParseUser currentUser = ParseUser.getCurrentUser();
+        if (currentUser == null) {
+            navigateToLogin();
+        }
+
+        else {
+            Log.i(TAG, currentUser.getUsername());
+        }
 
         // Set up the action bar.
         final ActionBar actionBar = getActionBar();
@@ -81,6 +90,13 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
         }
     }
 
+    private void navigateToLogin() {
+        Intent intent = new Intent(this, LoginActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(intent);
+    }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -90,14 +106,14 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
         return true;
     }
 
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-        if (id == R.id.action_settings) {
-            return true;
+        int itemId = item.getItemId();
+        if (itemId == R.id.action_logout) {
+            ParseUser.logOut();
+            navigateToLogin();
         }
         return super.onOptionsItemSelected(item);
     }

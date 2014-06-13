@@ -12,10 +12,12 @@
     <string name="passwordHint">Password</string>
     <string name="login_button_label">Login</string>
     <string name="sign_up_text">Sign Up!</string>
+    <string name="menu_logout_label">Logout</string>
     <string name="title_activity_sign_up">SignUpActivity</string>
     <string name="email_hint">Email</string>
     <string name="sign_up_button">Sign Up!</string>
     <string name="sign_up_error_message">Please make sure you enter a username, password, and email.</string>
-    <string name="sign_up_error_title">Oh no you didn\'t!</string>
+    <string name="sign_up_error_title">Oops!</string>
+    <string name="login_error_message">Please make sure you enter a username and password.</string>
 
 </resources>
