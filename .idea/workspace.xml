@@ -24,9 +24,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="212a4d6d-fd9a-4146-9eb4-6df21123434a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageMonster/src/main/java/com/spacecasestudios/messagemonster/MainActivity.java" afterPath="$PROJECT_DIR$/MessageMonster/src/main/java/com/spacecasestudios/messagemonster/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageMonster/src/main/java/com/spacecasestudios/messagemonster/SignUpActivity.java" afterPath="$PROJECT_DIR$/MessageMonster/src/main/java/com/spacecasestudios/messagemonster/SignUpActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageMonster/src/main/res/menu/main.xml" afterPath="$PROJECT_DIR$/MessageMonster/src/main/res/menu/main.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MessageMonster/src/main/java/com/spacecasestudios/messagemonster/RetrievePasswordActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MessageMonster/src/main/res/layout/activity_retrieve_password.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MessageMonster/src/main/res/menu/retrieve_password.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageMonster/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/MessageMonster/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageMonster/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/MessageMonster/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -51,65 +52,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MessageMonster/src/main/java/com/spacecasestudios/messagemonster/MainActivity.java">
+      <file leaf-file-name="RetrievePasswordActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MessageMonster/src/main/java/com/spacecasestudios/messagemonster/RetrievePasswordActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3247">
-              <caret line="115" column="30" selection-start-line="115" selection-start-column="30" selection-end-line="115" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MessageMonster/src/main/res/menu/main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+            <state vertical-scroll-proportion="1.1351352" vertical-offset="102" max-vertical-offset="1717">
+              <caret line="62" column="74" selection-start-line="62" selection-start-column="74" selection-end-line="62" selection-end-column="74" />
               <folding>
-                <element signature="e#256#283#0" expanded="true" />
+                <element signature="e#1066#4166#0" expanded="true" />
+                <element signature="e#1445#1485#0" expanded="true" />
+                <element signature="e#1525#1553#0" expanded="true" />
+                <element signature="e#1924#4101#0" expanded="true" />
+                <element signature="e#2347#2366#0" expanded="true" />
+                <element signature="e#2422#2444#0" expanded="true" />
+                <element signature="e#2530#3242#0" expanded="true" />
+                <element signature="e#3195#3196#0" expanded="true" />
+                <element signature="e#3766#3794#0" expanded="true" />
+                <element signature="e#4074#4075#0" expanded="true" />
+                <element signature="e#4155#4156#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_login.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MessageMonster/src/main/res/layout/activity_login.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.481482" vertical-offset="349" max-vertical-offset="935">
-              <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MessageMonster/src/main/java/com/spacecasestudios/messagemonster/LoginActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1972">
-              <caret line="65" column="64" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="64" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#999#1244#0" expanded="true" />
-                <element signature="e#1233#1234#0" expanded="true" />
-                <element signature="e#1996#2024#0" expanded="true" />
-                <element signature="e#2064#2092#0" expanded="true" />
-                <element signature="e#2482#3650#0" expanded="true" />
-                <element signature="e#3339#3367#0" expanded="true" />
-                <element signature="e#3627#3628#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SignUpActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SignUpActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MessageMonster/src/main/java/com/spacecasestudios/messagemonster/SignUpActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34" vertical-offset="34" max-vertical-offset="1700">
-              <caret line="27" column="68" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="68" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="1700">
+              <caret line="71" column="54" selection-start-line="68" selection-start-column="32" selection-end-line="71" selection-end-column="54" />
               <folding>
                 <element signature="e#1779#1809#0" expanded="true" />
                 <element signature="e#1845#1873#0" expanded="true" />
@@ -121,34 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_sign_up.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MessageMonster/src/main/res/layout/activity_sign_up.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="952">
-              <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MessageMonster/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MessageMonster/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1003">
-              <caret line="5" column="78" selection-start-line="5" selection-start-column="78" selection-end-line="5" selection-end-column="78" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+              <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -848,23 +794,27 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/MessageMonster/src/main/res/layout/activity_sign_up.xml" />
-        <option value="$PROJECT_DIR$/MessageMonster/src/main/res/layout/activity_login.xml" />
         <option value="$PROJECT_DIR$/MessageMonster/src/main/res/layout/activity_login_activity2.xml" />
         <option value="$PROJECT_DIR$/MessageMonster/src/main/java/com/spacecasestudios/messagemonster/LoginActivity2.java" />
         <option value="$PROJECT_DIR$/MessageMonster/build.gradle" />
         <option value="$PROJECT_DIR$/MessageMonster/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/MessageMonster/src/main/java/com/spacecasestudios/messagemonster/MessageMonsterApplication.java" />
-        <option value="$PROJECT_DIR$/MessageMonster/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/MessageMonster/src/main/res/menu/main.xml" />
         <option value="$PROJECT_DIR$/MessageMonster/src/main/java/com/spacecasestudios/messagemonster/MainActivity.java" />
-        <option value="$PROJECT_DIR$/MessageMonster/src/main/java/com/spacecasestudios/messagemonster/LoginActivity.java" />
         <option value="$PROJECT_DIR$/MessageMonster/src/main/java/com/spacecasestudios/messagemonster/SignUpActivity.java" />
+        <option value="$PROJECT_DIR$/MessageMonster/src/main/res/layout/activity_login.xml" />
+        <option value="$PROJECT_DIR$/MessageMonster/src/main/res/layout/activity_retrieve_password.xml" />
+        <option value="$PROJECT_DIR$/MessageMonster/src/main/java/com/spacecasestudios/messagemonster/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/MessageMonster/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/MessageMonster/src/main/java/com/spacecasestudios/messagemonster/RetrievePasswordActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1023" />
-    <option name="height" value="1040" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -1354,17 +1304,21 @@
       <created>1402639649574</created>
       <updated>1402639649574</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added the Parse.com library. Added login and logout functionality.  Added a progress bar indicator.">
+      <created>1402688060381</created>
+      <updated>1402688060381</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1023" height="1040" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11819116" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.117866665" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1374,14 +1328,14 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28733033" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27488688" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24402907" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2468017" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918552" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1410,7 +1364,8 @@
     <MESSAGE value="Created a sign up screen activity" />
     <MESSAGE value="Implemented navigation between the login and sign up activities" />
     <MESSAGE value="Created an error dialog for the sign up activity" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created an error dialog for the sign up activity" />
+    <MESSAGE value="Added the Parse.com library. Added login and logout functionality.  Added a progress bar indicator." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the Parse.com library. Added login and logout functionality.  Added a progress bar indicator." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1430,13 +1385,13 @@
           <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#999#1244#0" expanded="true" />
-            <element signature="e#1233#1234#0" expanded="true" />
-            <element signature="e#1996#2024#0" expanded="true" />
-            <element signature="e#2064#2092#0" expanded="true" />
-            <element signature="e#2482#3650#0" expanded="true" />
-            <element signature="e#3339#3367#0" expanded="true" />
-            <element signature="e#3627#3628#0" expanded="true" />
+            <element signature="e#1931#4144#0" expanded="true" />
+            <element signature="e#2445#2473#0" expanded="true" />
+            <element signature="e#2513#2541#0" expanded="true" />
+            <element signature="e#2931#4099#0" expanded="true" />
+            <element signature="e#3788#3816#0" expanded="true" />
+            <element signature="e#4076#4077#0" expanded="true" />
+            <element signature="e#4133#4134#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1541,13 +1496,13 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#999#1244#0" expanded="true" />
-            <element signature="e#1233#1234#0" expanded="true" />
-            <element signature="e#1996#2024#0" expanded="true" />
-            <element signature="e#2064#2092#0" expanded="true" />
-            <element signature="e#2482#3650#0" expanded="true" />
-            <element signature="e#3339#3367#0" expanded="true" />
-            <element signature="e#3627#3628#0" expanded="true" />
+            <element signature="e#1931#4144#0" expanded="true" />
+            <element signature="e#2445#2473#0" expanded="true" />
+            <element signature="e#2513#2541#0" expanded="true" />
+            <element signature="e#2931#4099#0" expanded="true" />
+            <element signature="e#3788#3816#0" expanded="true" />
+            <element signature="e#4076#4077#0" expanded="true" />
+            <element signature="e#4133#4134#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1743,8 +1698,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MessageMonster/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
-          <caret line="5" column="78" selection-start-line="5" selection-start-column="78" selection-end-line="5" selection-end-column="78" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1054">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -1757,40 +1712,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MessageMonster/src/main/res/layout/activity_sign_up.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="952">
-          <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MessageMonster/src/main/java/com/spacecasestudios/messagemonster/MessageMonsterApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MessageMonster/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MessageMonster/src/main/res/layout/activity_login.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.481482" vertical-offset="349" max-vertical-offset="935">
-          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -1813,33 +1738,94 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MessageMonster/src/main/res/layout/activity_login.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="333" max-vertical-offset="935">
+          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessageMonster/src/main/res/layout/activity_sign_up.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="952">
+          <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessageMonster/src/main/res/layout/activity_retrieve_password.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MessageMonster/src/main/java/com/spacecasestudios/messagemonster/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1972">
-          <caret line="65" column="64" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="64" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="2125">
+          <caret line="47" column="87" selection-start-line="47" selection-start-column="87" selection-end-line="47" selection-end-column="87" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#999#1244#0" expanded="true" />
-            <element signature="e#1233#1234#0" expanded="true" />
-            <element signature="e#1996#2024#0" expanded="true" />
-            <element signature="e#2064#2092#0" expanded="true" />
-            <element signature="e#2482#3650#0" expanded="true" />
-            <element signature="e#3339#3367#0" expanded="true" />
-            <element signature="e#3627#3628#0" expanded="true" />
+            <element signature="e#1931#4144#0" expanded="true" />
+            <element signature="e#2445#2473#0" expanded="true" />
+            <element signature="e#2513#2541#0" expanded="true" />
+            <element signature="e#2931#4099#0" expanded="true" />
+            <element signature="e#3788#3816#0" expanded="true" />
+            <element signature="e#4076#4077#0" expanded="true" />
+            <element signature="e#4133#4134#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MessageMonster/src/main/java/com/spacecasestudios/messagemonster/SignUpActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34" vertical-offset="34" max-vertical-offset="1700">
-          <caret line="27" column="68" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="68" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="1700">
+          <caret line="71" column="54" selection-start-line="68" selection-start-column="32" selection-end-line="71" selection-end-column="54" />
           <folding>
             <element signature="e#1779#1809#0" expanded="true" />
             <element signature="e#1845#1873#0" expanded="true" />
             <element signature="e#2436#3669#0" expanded="true" />
             <element signature="e#3358#3386#0" expanded="true" />
             <element signature="e#3646#3647#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessageMonster/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+          <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessageMonster/src/main/java/com/spacecasestudios/messagemonster/RetrievePasswordActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1351352" vertical-offset="102" max-vertical-offset="1717">
+          <caret line="62" column="74" selection-start-line="62" selection-start-column="74" selection-end-line="62" selection-end-column="74" />
+          <folding>
+            <element signature="e#1066#4166#0" expanded="true" />
+            <element signature="e#1445#1485#0" expanded="true" />
+            <element signature="e#1525#1553#0" expanded="true" />
+            <element signature="e#1924#4101#0" expanded="true" />
+            <element signature="e#2347#2366#0" expanded="true" />
+            <element signature="e#2422#2444#0" expanded="true" />
+            <element signature="e#2530#3242#0" expanded="true" />
+            <element signature="e#3195#3196#0" expanded="true" />
+            <element signature="e#3766#3794#0" expanded="true" />
+            <element signature="e#4074#4075#0" expanded="true" />
+            <element signature="e#4155#4156#0" expanded="true" />
           </folding>
         </state>
       </provider>

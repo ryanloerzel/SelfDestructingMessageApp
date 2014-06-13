@@ -16,8 +16,14 @@
     <string name="title_activity_sign_up">SignUpActivity</string>
     <string name="email_hint">Email</string>
     <string name="sign_up_button">Sign Up!</string>
+    <string name="email_sent">An email was successfully sent with reset instructions.</string>
+    <string name="success_title">Success!</string>
     <string name="sign_up_error_message">Please make sure you enter a username, password, and email.</string>
+    <string name="retrieve_password_error_message">Please make sure you enter your email.</string>
     <string name="sign_up_error_title">Oops!</string>
     <string name="login_error_message">Please make sure you enter a username and password.</string>
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="title_activity_retrieve_password">RetrievePassword</string>
+    <string name="retrieve_password_label">Retrieve Password</string>
 
 </resources>

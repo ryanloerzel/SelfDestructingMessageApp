@@ -32,7 +32,10 @@
             android:parentActivityName=".LoginActivity"
             android:screenOrientation="portrait" >
         </activity>
-
+        <activity
+            android:name=".RetrievePasswordActivity"
+            android:label="@string/title_activity_retrieve_password" >
+        </activity>
     </application>
     <!-- To access Google+ APIs: -->
     <uses-permission android:name="android.permission.INTERNET" />
