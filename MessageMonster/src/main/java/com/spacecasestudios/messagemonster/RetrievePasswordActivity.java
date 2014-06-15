@@ -19,6 +19,7 @@ import com.parse.RequestPasswordResetCallback;
 
 public class RetrievePasswordActivity extends Activity {
 
+    //Declare member variables
     protected EditText mEmail;
     protected Button mRetrievePasswordButton;
 
@@ -30,6 +31,7 @@ public class RetrievePasswordActivity extends Activity {
 
         mEmail = (EditText) findViewById(R.id.emailField);
 
+        //When the button is clicked, invoke the Parse library password retrieval functionality
         mRetrievePasswordButton = (Button) findViewById(R.id.retrievePasswordButton);
         mRetrievePasswordButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -45,10 +47,12 @@ public class RetrievePasswordActivity extends Activity {
                     AlertDialog dialog = builder.create();
                     dialog.show();
                 } else {
+                    setProgressBarIndeterminateVisibility(true);
                     //Retrieve the password by contacting the user through email
                     ParseUser.requestPasswordResetInBackground(email,
                         new RequestPasswordResetCallback() {
                             public void done(ParseException e) {
+                                setProgressBarIndeterminateVisibility(false);
                                 if (e == null) {
                                     // An email was successfully sent with reset instructions.
                                     AlertDialog.Builder builder = new AlertDialog.Builder(RetrievePasswordActivity.this);
