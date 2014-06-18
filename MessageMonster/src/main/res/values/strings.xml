@@ -30,5 +30,6 @@
     <string name="retrieve_password_label">Retrieve Password</string>
     <string name="title_activity_edit_friends">Edit Friends</string>
     <string name="error_title">We\'re sorry.</string>
+    <string name="menu_camera_label">Camera</string>
 
 </resources>
