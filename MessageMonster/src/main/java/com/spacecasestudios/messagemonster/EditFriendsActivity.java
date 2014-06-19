@@ -41,7 +41,17 @@ public class EditFriendsActivity extends ListActivity {
         super.onResume();
 
         mCurrentUser = ParseUser.getCurrentUser();
-        mFriendsRelation = mCurrentUser.getRelation(ParseConstants.KEY_FRIENDS_RELATION);
+
+        //*********************************************************************************
+        //A null pointer exception was being thrown without this try-catch block
+        //TODO: figure out what is causing the exception
+        try{
+            mFriendsRelation = mCurrentUser.getRelation(ParseConstants.KEY_FRIENDS_RELATION);
+        }
+        catch(Exception e){
+            Log.e(TAG, e.getMessage());
+        }
+        //***********************************************************************************
 
         ParseQuery<ParseUser> query = ParseUser.getQuery();
         query.orderByAscending(ParseConstants.KEY_USERNAME);
