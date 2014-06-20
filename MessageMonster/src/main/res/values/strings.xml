@@ -31,6 +31,10 @@
     <string name="title_activity_edit_friends">Edit Friends</string>
     <string name="error_title">We\'re sorry.</string>
     <string name="menu_camera_label">Camera</string>
+    <string name="general_error">Sorry, there was an error!</string>
+    <string name="video_file_size_warning">Selected video must be less than 10MB</string>
+    <string name="file_not_found_error">There was a problem with the selected file.</string>
+    <string name="error_file_length">This file size is too long.</string>
     <string-array name="camera_choices">
         <item>Take Picture</item>
         <item>Take Video</item>
