@@ -51,5 +51,6 @@
     <string name="error_sending_message">There was an error sending your message.  Please try again.</string>
     <string name="uploading_message">Uploading message...</string>
     <string name="error_connecting_with_parse">There was a problem sending your message.  Please try again.</string>
+    <string name="title_activity_view_image">Message Monster</string>
 
 </resources>

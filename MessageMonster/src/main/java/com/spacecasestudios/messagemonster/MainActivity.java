@@ -47,7 +47,6 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
     protected Uri mMediaUri;
 
 
-
     protected DialogInterface.OnClickListener mDialogListener =
             new DialogInterface.OnClickListener(){
        @Override

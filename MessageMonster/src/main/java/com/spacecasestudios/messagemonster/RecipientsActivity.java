@@ -11,6 +11,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -37,6 +38,8 @@ public class RecipientsActivity extends ListActivity {
     protected Uri mMediaUri;
     protected String mFileType;
 
+    protected Button mSendButton;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,6 +52,34 @@ public class RecipientsActivity extends ListActivity {
 
         mMediaUri = getIntent().getData();
         mFileType = getIntent().getExtras().getString(ParseConstants.KEY_FILE_TYPE);
+
+        mSendButton = (Button) findViewById(R.id.send_button);
+
+        mSendButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ListView currentView = getListView();
+                if (currentView.getCheckedItemCount() > 0) {
+                    ParseObject message = createMessage();
+                    if (message == null) {
+                        AlertDialog.Builder builder = new AlertDialog.Builder(RecipientsActivity.this);
+                        builder.setMessage(R.string.error_selecting_file)
+                                .setTitle(R.string.error_selecting_file_title)
+                                .setPositiveButton(android.R.string.ok, null);
+                        AlertDialog dialog = builder.create();
+                        dialog.show();
+                    } else {
+                        send(message);
+                        Toast.makeText(RecipientsActivity.this, getString(R.string.uploading_message), Toast.LENGTH_LONG).show();
+                        finish();
+                    }
+                }
+                else {
+                    Toast.makeText(RecipientsActivity.this, "Please select a recipient", Toast.LENGTH_LONG).show();
+                }
+
+            }
+        });
     }
 
     @Override
@@ -196,7 +227,7 @@ public class RecipientsActivity extends ListActivity {
                     Toast.makeText(RecipientsActivity.this, R.string.success_message, Toast.LENGTH_LONG).show();
                 }
                 else{
-                    Toast.makeText(RecipientsActivity.this, getString(R.string.error_connecting_with_parse), Toast.LENGTH_LONG).show();
+                    Toast.makeText(RecipientsActivity.this, R.string.error_connecting_with_parse, Toast.LENGTH_LONG).show();
                 }
             }
         });
