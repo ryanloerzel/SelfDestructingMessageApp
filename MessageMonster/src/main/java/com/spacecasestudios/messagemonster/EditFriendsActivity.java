@@ -149,5 +149,4 @@ public class EditFriendsActivity extends ListActivity {
             }
         });
     }
-
 }

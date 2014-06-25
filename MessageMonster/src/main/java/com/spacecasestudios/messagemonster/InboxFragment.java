@@ -44,7 +44,7 @@ public class InboxFragment extends ListFragment {
         query.findInBackground(new FindCallback<ParseObject>() {
             @Override
             public void done(List<ParseObject> messages, ParseException e) {
-                getActivity().setProgressBarIndeterminateVisibility(false);
+                //getActivity().setProgressBarIndeterminateVisibility(false); //THROWING AN EXCEPTION
 
                 if(e==null){
                     //We found messages!
