@@ -10,8 +10,8 @@
     <string name="hello_world">Hello world!</string>
     <string name="usernameHint">Username</string>
     <string name="passwordHint">Password</string>
-    <string name="login_button_label">Login</string>
-    <string name="sign_up_text">Sign Up!</string>
+    <string name="login_button_label">SIGN IN</string>
+    <string name="sign_up_text">Don\'t have an account? Sign Up!</string>
     <string name="menu_logout_label">Logout</string>
     <string name="menu_edit_friends_label">Edit Friends</string>
     <string name="title_activity_sign_up">SignUpActivity</string>
