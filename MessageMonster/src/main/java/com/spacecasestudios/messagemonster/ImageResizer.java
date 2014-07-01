@@ -7,7 +7,7 @@ import android.util.Pair;
 public class ImageResizer {
 
     /*
-     * Call this static method to resize an image to a specified width and height.
+     * Call this static method to resize an image to a specific width and height.
      *
      * @param targetWidth  The width to resize to.
      * @param targetHeight The height to resize to.
