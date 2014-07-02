@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MessageMonster.iml" filepath="$PROJECT_DIR$/MessageMonster.iml" />
       <module fileurl="file://$PROJECT_DIR$/SelfDestructingMessageApp.iml" filepath="$PROJECT_DIR$/SelfDestructingMessageApp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SelfDestructingMessageApp.iml" filepath="$PROJECT_DIR$/SelfDestructingMessageApp.iml" />
     </modules>
   </component>
 </project>
