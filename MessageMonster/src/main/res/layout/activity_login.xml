@@ -2,49 +2,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.spacecasestudios.messagemonster.LoginActivity">
+    tools:context="com.spacecasestudios.messagemonster.LoginActivity"
+    style="@style/BackgroundTheme">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/backgroundImage"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:src="@drawable/background"
-        android:scaleType="fitXY" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/tentacleImage"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/tentacle" />
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/titleImage"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/title_image"
-        android:paddingTop="60dp" />
+        style="@style/TitleTextImage" />
+
+    <ImageView
+        android:id="@+id/tentacleImage"
+        style="@style/TentacleImage"/>
+
 
     <LinearLayout
         android:id="@+id/linear_layout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_below="@+id/titleImage"
-        android:layout_marginTop="32dp"
-        android:layout_marginLeft="@dimen/activity_horizontal_margin"
-        android:layout_marginRight="@dimen/activity_horizontal_margin"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:paddingTop="10dp"
-        android:paddingBottom="10dp"
-        android:background="@android:color/white">
+        style="@style/FieldContainer">
 
 
 
@@ -75,32 +47,29 @@
         </LinearLayout>
 
 
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/login_button_label"
-        android:id="@+id/loginButton"
-        android:typeface="sans"
-        android:layout_below="@+id/linear_layout"
-        android:layout_marginLeft="@dimen/activity_horizontal_margin"
-        android:layout_marginRight="@dimen/activity_horizontal_margin"
-        android:textColor="@color/sea_blue"
-        android:background="@drawable/button_custom"
-        android:textSize="13sp" />
-
-    <TextView
+    <ImageView
+        android:id="@+id/buttonDivider"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/sign_up_text"
-        android:id="@+id/signUpText"
-        android:textSize="16sp"
-        android:textIsSelectable="true"
-        android:textColor="#ffffffff"
-        android:layout_below="@+id/loginButton"
+        android:layout_below="@id/linear_layout"
         android:layout_centerHorizontal="true"
-        android:paddingTop="10dp"
-        android:textStyle="normal" />
+        android:src="@drawable/button_divider"/>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_marginRight="0dp"
+        android:layout_below="@+id/linear_layout"
+        android:layout_toLeftOf="@+id/buttonDivider"
+        style="@style/Button"/>
+
+    <Button
+        android:id="@+id/registerButton"
+        android:text="@string/sign_up_text"
+        style="@style/Button"
+        android:layout_marginLeft="0dp"
+        android:layout_below="@+id/linear_layout"
+        android:layout_toRightOf="@+id/buttonDivider" />
+
 
     <TextView
         android:layout_width="wrap_content"
@@ -109,10 +78,9 @@
         android:id="@+id/forgotPasswordText"
         android:textSize="16sp"
         android:textColor="#ffffffff"
-        android:paddingTop="10dp"
-        android:layout_above="@+id/tentacleImage"
-        android:layout_centerHorizontal="true"
-        android:visibility="invisible" />
+        android:paddingTop="15dp"
+        android:layout_below="@+id/buttonDivider"
+        android:layout_centerHorizontal="true" />
 
 
 

@@ -20,8 +20,8 @@ public class LoginActivity extends Activity {
     protected EditText mUserName;
     protected EditText mPassword;
     protected Button mLoginButton;
+    protected Button mSignUpButton;
 
-    protected TextView mSignUpTextView;
     protected TextView mRetrievePasswordTextView;
 
     @Override
@@ -33,8 +33,8 @@ public class LoginActivity extends Activity {
         ActionBar actionBar = getActionBar();
         actionBar.hide();
 
-        mSignUpTextView = (TextView)findViewById(R.id.signUpText);
-        mSignUpTextView.setOnClickListener(new View.OnClickListener() {
+        mSignUpButton = (Button)findViewById(R.id.registerButton);
+        mSignUpButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(LoginActivity.this, SignUpActivity.class);

@@ -11,7 +11,7 @@
     <string name="usernameHint">Username</string>
     <string name="passwordHint">Password</string>
     <string name="login_button_label">SIGN IN</string>
-    <string name="sign_up_text">Don\'t have an account? Sign Up!</string>
+    <string name="sign_up_text">SIGN UP!</string>
     <string name="menu_logout_label">Logout</string>
     <string name="menu_edit_friends_label">Edit Friends</string>
     <string name="title_activity_sign_up">SignUpActivity</string>
@@ -27,7 +27,7 @@
     <string name="login_error_message">Please make sure you enter a username and password.</string>
     <string name="forgot_password">Forgot your password?</string>
     <string name="title_activity_retrieve_password">RetrievePassword</string>
-    <string name="retrieve_password_label">Retrieve Password</string>
+    <string name="retrieve_password_label">RETRIEVE PASSWORD</string>
     <string name="title_activity_edit_friends">Edit Friends</string>
     <string name="error_title">We\'re sorry.</string>
     <string name="menu_camera_label">Camera</string>
@@ -52,5 +52,7 @@
     <string name="uploading_message">Uploading message...</string>
     <string name="error_connecting_with_parse">There was a problem sending your message.  Please try again.</string>
     <string name="title_activity_view_image">Message Monster</string>
+    <string name="background_description">background gradient color ocean blue</string>
+    <string name="cancel_button_label">CANCEL</string>
 
 </resources>

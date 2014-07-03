@@ -1,5 +1,6 @@
 package com.spacecasestudios.messagemonster;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -28,6 +29,9 @@ public class RetrievePasswordActivity extends Activity {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_INDETERMINATE_PROGRESS);
         setContentView(R.layout.activity_retrieve_password);
+
+        ActionBar actionBar = getActionBar();
+        actionBar.hide();
 
         mEmail = (EditText) findViewById(R.id.emailField);
 

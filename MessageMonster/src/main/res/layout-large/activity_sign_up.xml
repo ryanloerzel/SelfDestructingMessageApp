@@ -7,15 +7,19 @@
 
     <ImageView
         android:id="@+id/titleImage"
-        style="@style/TitleTextImage" />
+        style="@style/TitleTextImage"
+        android:layout_marginTop="100dp"/>
 
     <ImageView
         android:id="@+id/tentacleImage"
-        style="@style/TentacleImage"/>
+        style="@style/TentacleImage"
+        android:src="@drawable/tablet_tentacle"/>
 
     <LinearLayout
         android:id="@+id/linear_layout"
-        style="@style/FieldContainer">
+        style="@style/FieldContainer"
+        android:layout_width="400dp"
+        android:layout_centerHorizontal="true">
 
         <EditText
             android:layout_width="match_parent"
@@ -54,6 +58,7 @@
         android:text="@string/sign_up_button"
         android:layout_marginRight="0dp"
         android:layout_below="@+id/linear_layout"
+        android:layout_width="199dp"
         android:layout_toLeftOf="@+id/buttonDivider"
         style="@style/Button"/>
 
@@ -62,6 +67,7 @@
         android:text="@string/cancel_button_label"
         style="@style/Button"
         android:layout_marginLeft="0dp"
+        android:layout_width="200dp"
         android:layout_below="@+id/linear_layout"
         android:layout_toRightOf="@+id/buttonDivider" />
 

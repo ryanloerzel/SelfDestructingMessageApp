@@ -1,21 +1,60 @@
 <resources>
 
 
-    <style name="AppTheme" parent="@style/_AppTheme"/>
-
-    <style name="_AppTheme" parent="android:Theme.Holo.Light">
+    <style name="AppTheme"  parent="android:Theme.Holo.Light">
 
         <item name="android:editTextBackground">@drawable/apptheme_edit_text_holo_light</item>
-
-
-        <item name="android:imageButtonStyle">@style/ImageButtonAppTheme</item>
 
     </style>
 
 
+    <style name="BackgroundTheme" >
+        <item name="android:background">@drawable/background</item>
+    </style>
 
-    <style name="ImageButtonAppTheme" parent="android:Widget.Holo.Light.ImageButton">
-        <item name="android:background">@drawable/apptheme_btn_default_holo_light</item>
+    <style name="TitleTextImage" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:src">@drawable/title_image</item>
+        <item name="android:paddingTop">60dp</item>
+    </style>
+
+    <style name="TentacleImage" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:src">@drawable/tentacle</item>
+    </style>
+
+    <style name="FieldContainer">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_below">@+id/titleImage</item>
+        <item name="android:layout_marginTop">32dp</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/login_button_label</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:textColor">@color/sea_blue</item>
+        <item name="android:background">@drawable/button_custom</item>
+        <item name="android:textSize">13sp</item>
     </style>
 
 </resources>
