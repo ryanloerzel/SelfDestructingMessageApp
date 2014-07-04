@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">MessageMonster</string>
+    <string name="app_name">Message Monster</string>
     <string name="title_section1">Inbox</string>
     <string name="title_section2">Friends</string>
     <string name="title_section3">Section 3</string>

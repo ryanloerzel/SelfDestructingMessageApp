@@ -52,5 +52,15 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
         }
         return null;
     }
+
+    public int getIcon(int position){
+        switch(position){
+            case 0:
+                return R.drawable.ic_inbox;
+            case 1:
+                return R.drawable.ic_friends;
+        }
+        return R.drawable.ic_inbox;
+    }
 }
 
