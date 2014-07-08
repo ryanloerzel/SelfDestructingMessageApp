@@ -1,4 +1,4 @@
-package com.spacecasestudios.messagemonster;
+package com.spacecasestudios.messagemonster.utilities;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

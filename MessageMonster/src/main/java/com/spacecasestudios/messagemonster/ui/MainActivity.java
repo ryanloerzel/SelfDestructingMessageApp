@@ -1,4 +1,4 @@
-package com.spacecasestudios.messagemonster;
+package com.spacecasestudios.messagemonster.ui;
 
 import android.app.ActionBar;
 import android.app.AlertDialog;
@@ -10,7 +10,6 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
 import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.util.Log;
 import android.view.Menu;
@@ -19,6 +18,9 @@ import android.view.Window;
 import android.widget.Toast;
 
 import com.parse.ParseUser;
+import com.spacecasestudios.messagemonster.utilities.ParseConstants;
+import com.spacecasestudios.messagemonster.R;
+import com.spacecasestudios.messagemonster.adapter.SectionsPagerAdapter;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -153,14 +155,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
 
     };
 
-    /**
-     * The {@link android.support.v4.view.PagerAdapter} that will provide
-     * fragments for each of the sections. We use a
-     * {@link FragmentPagerAdapter} derivative, which will keep every
-     * loaded fragment in memory. If this becomes too memory intensive, it
-     * may be best to switch to a
-     * {@link android.support.v13.app.FragmentStatePagerAdapter}.
-     */
+
     SectionsPagerAdapter mSectionsPagerAdapter;
 
     /**

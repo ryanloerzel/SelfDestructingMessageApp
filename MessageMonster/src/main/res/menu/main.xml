@@ -1,6 +1,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.spacecasestudios.messagemonster.MainActivity" >
+    tools:context="com.spacecasestudios.messagemonster.ui.MainActivity" >
 
     <item android:id="@+id/action_camera"
         android:title="@string/menu_camera_label"

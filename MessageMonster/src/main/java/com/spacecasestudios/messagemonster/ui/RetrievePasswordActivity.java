@@ -1,4 +1,4 @@
-package com.spacecasestudios.messagemonster;
+package com.spacecasestudios.messagemonster.ui;
 
 import android.app.ActionBar;
 import android.app.Activity;
@@ -16,6 +16,7 @@ import android.widget.EditText;
 import com.parse.ParseException;
 import com.parse.ParseUser;
 import com.parse.RequestPasswordResetCallback;
+import com.spacecasestudios.messagemonster.R;
 
 
 public class RetrievePasswordActivity extends Activity {

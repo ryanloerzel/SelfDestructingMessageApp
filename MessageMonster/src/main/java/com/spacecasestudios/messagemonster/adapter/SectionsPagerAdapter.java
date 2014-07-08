@@ -1,4 +1,4 @@
-package com.spacecasestudios.messagemonster;
+package com.spacecasestudios.messagemonster.adapter;
 
 
 import android.content.Context;
@@ -6,12 +6,12 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.app.FragmentManager;
 
+import com.spacecasestudios.messagemonster.R;
+import com.spacecasestudios.messagemonster.ui.FriendsFragment;
+import com.spacecasestudios.messagemonster.ui.InboxFragment;
+
 import java.util.Locale;
 
-/**
- * A {@link android.support.v13.app.FragmentPagerAdapter} that returns a fragment corresponding to
- * one of the sections/tabs/pages.
- */
 public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     protected Context mContext;

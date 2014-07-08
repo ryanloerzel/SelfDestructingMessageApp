@@ -1,4 +1,4 @@
-package com.spacecasestudios.messagemonster;
+package com.spacecasestudios.messagemonster.ui;
 
 import android.app.AlertDialog;
 import android.app.ListActivity;
@@ -23,6 +23,9 @@ import com.parse.ParseQuery;
 import com.parse.ParseRelation;
 import com.parse.ParseUser;
 import com.parse.SaveCallback;
+import com.spacecasestudios.messagemonster.utilities.FileHelper;
+import com.spacecasestudios.messagemonster.utilities.ParseConstants;
+import com.spacecasestudios.messagemonster.R;
 
 import java.util.ArrayList;
 import java.util.List;

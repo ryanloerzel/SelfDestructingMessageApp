@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.spacecasestudios.messagemonster.ViewImageActivity">
+    tools:context="com.spacecasestudios.messagemonster.ui.ViewImageActivity">
 
 
     <ImageView
@@ -12,4 +12,12 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:scaleType="fitCenter"/>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

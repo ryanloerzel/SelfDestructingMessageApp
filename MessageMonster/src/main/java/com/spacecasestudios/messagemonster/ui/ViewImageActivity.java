@@ -1,11 +1,15 @@
-package com.spacecasestudios.messagemonster;
+package com.spacecasestudios.messagemonster.ui;
 
 import android.app.Activity;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 
+import com.spacecasestudios.messagemonster.R;
+import com.squareup.picasso.Callback;
 import com.squareup.picasso.Picasso;
 
 import java.util.Timer;
@@ -13,15 +17,41 @@ import java.util.TimerTask;
 
 public class ViewImageActivity extends Activity {
 
+    ProgressBar mProgressBar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_image);
 
         ImageView imageView = (ImageView)findViewById(R.id.imageView);
+        mProgressBar = (ProgressBar) findViewById(R.id.progressBar);
+        mProgressBar.setVisibility(View.VISIBLE);
 
         Uri imageUri = getIntent().getData();
-        Picasso.with(this).load(imageUri.toString()).into(imageView);
+
+        Picasso.with(this).load(imageUri.toString()).into(imageView, new Callback() {
+            @Override
+            public void onSuccess() {
+                mProgressBar.setVisibility(View.INVISIBLE);
+                Timer timer = new Timer();
+                timer.schedule(new TimerTask() {
+                    @Override
+                    public void run() {
+                        finish();
+                    }
+                }, 10*1000);
+            }
+
+            @Override
+            public void onError() {
+
+            }
+        });
+
+
+
+
 
         Timer timer = new Timer();
         timer.schedule(new TimerTask() {

@@ -1,4 +1,4 @@
-package com.spacecasestudios.messagemonster;
+package com.spacecasestudios.messagemonster.utilities;
 
 /**
  * Created by Ryan on 6/16/2014.

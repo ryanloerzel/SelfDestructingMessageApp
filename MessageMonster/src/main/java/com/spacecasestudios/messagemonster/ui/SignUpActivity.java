@@ -1,4 +1,4 @@
-package com.spacecasestudios.messagemonster;
+package com.spacecasestudios.messagemonster.ui;
 
 import android.app.ActionBar;
 import android.app.Activity;
@@ -13,6 +13,7 @@ import android.widget.EditText;
 import com.parse.ParseException;
 import com.parse.ParseUser;
 import com.parse.SignUpCallback;
+import com.spacecasestudios.messagemonster.R;
 
 
 public class SignUpActivity extends Activity {

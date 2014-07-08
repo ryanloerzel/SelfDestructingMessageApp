@@ -1,4 +1,4 @@
-package com.spacecasestudios.messagemonster;
+package com.spacecasestudios.messagemonster.ui;
 
 import android.app.ActionBar;
 import android.app.Activity;
@@ -14,6 +14,7 @@ import android.widget.TextView;
 import com.parse.LogInCallback;
 import com.parse.ParseException;
 import com.parse.ParseUser;
+import com.spacecasestudios.messagemonster.R;
 
 
 public class LoginActivity extends Activity {
