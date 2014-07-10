@@ -12,6 +12,7 @@ import com.spacecasestudios.messagemonster.ui.InboxFragment;
 
 import java.util.Locale;
 
+
 public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     protected Context mContext;

@@ -54,5 +54,6 @@
     <string name="title_activity_view_image">Message Monster</string>
     <string name="background_description">background gradient color ocean blue</string>
     <string name="cancel_button_label">CANCEL</string>
+    <string name="content_description_user_avatar">User Avatar</string>
 
 </resources>
