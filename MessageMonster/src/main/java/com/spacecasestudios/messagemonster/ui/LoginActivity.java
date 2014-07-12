@@ -9,11 +9,13 @@ import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.parse.LogInCallback;
 import com.parse.ParseException;
 import com.parse.ParseUser;
+import com.spacecasestudios.messagemonster.MessageMonsterApplication;
 import com.spacecasestudios.messagemonster.R;
 
 
@@ -22,6 +24,7 @@ public class LoginActivity extends Activity {
     protected EditText mPassword;
     protected Button mLoginButton;
     protected Button mSignUpButton;
+    protected ProgressBar mProgressBar;
 
     protected TextView mRetrievePasswordTextView;
 
@@ -58,6 +61,9 @@ public class LoginActivity extends Activity {
         mUserName = (EditText) findViewById(R.id.usernameField);
         mPassword = (EditText)findViewById(R.id.passwordField);
         mLoginButton = (Button) findViewById(R.id.loginButton);
+        mProgressBar = (ProgressBar) findViewById(R.id.progressBar);
+        mProgressBar.setVisibility(View.INVISIBLE);
+
 
         mLoginButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -78,12 +84,15 @@ public class LoginActivity extends Activity {
                 }
                 else{
                     //Attempt to Login the user
-                    setProgressBarIndeterminateVisibility(true);
+                    mProgressBar.setVisibility(View.VISIBLE);
                     ParseUser.logInInBackground(username,password, new LogInCallback() {
                         @Override
                         public void done(ParseUser user, ParseException e) {
-                            setProgressBarIndeterminateVisibility(false);
+                            mProgressBar.setVisibility(View.INVISIBLE);
                             if(e == null){
+
+                                //Success!
+                                MessageMonsterApplication.updateParseInstallation(user);
                                 Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                                 intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);

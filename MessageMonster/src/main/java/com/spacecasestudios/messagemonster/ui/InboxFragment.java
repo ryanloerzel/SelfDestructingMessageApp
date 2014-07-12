@@ -8,6 +8,7 @@ import android.support.v4.widget.SwipeRefreshLayout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -30,11 +31,14 @@ import java.util.List;
 public class InboxFragment extends ListFragment {
     protected List<ParseObject> mMessages;
     protected SwipeRefreshLayout mSwipeRefreshLayout;
+    protected ImageView mEmptyImage;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_inbox, container, false);
+
+        mEmptyImage = (ImageView)rootView.findViewById(R.id.emptyImage);
 
         mSwipeRefreshLayout = (SwipeRefreshLayout)rootView.findViewById(R.id.swipeRefreshLayout);
         mSwipeRefreshLayout.setOnRefreshListener(mOnRefreshListener);
@@ -66,6 +70,13 @@ public class InboxFragment extends ListFragment {
                 if(e==null){
                     //We found messages!
                     mMessages = messages;
+
+                    if(mMessages.size() == 0){
+                        mEmptyImage.setVisibility(View.VISIBLE);
+                    }
+                    else {
+                        mEmptyImage.setVisibility(View.INVISIBLE);
+                    }
 
                     String[] usernames = new String[mMessages.size()];
                     int i = 0;

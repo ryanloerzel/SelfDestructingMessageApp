@@ -10,10 +10,17 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:src="@drawable/avatar_empty"
-        android:contentDescription="@string/content_description_user_avatar"
         android:scaleType="fitXY"
-        android:adjustViewBounds ="true"/>
+        android:adjustViewBounds ="true"
+        android:src="@drawable/avatar_empty"
+        android:contentDescription="@string/content_description_user_avatar"/>
+
+    <com.spacecasestudios.messagemonster.utilities.ResizableImageView
+        android:id="@+id/checkImageView"
+        style="@style/GridImage"
+        android:src="@drawable/avatar_selected"
+        android:contentDescription="@string/content_description_user_checkmark"
+        android:visibility="invisible"/>
 
     <TextView
         android:id="@+id/nameLabel"

@@ -16,7 +16,7 @@
     <string name="menu_edit_friends_label">Edit Friends</string>
     <string name="title_activity_sign_up">SignUpActivity</string>
     <string name="email_hint">Email</string>
-    <string name="empty_inbox_label">No new messages.</string>
+    <string name="empty_inbox_label">no new messages</string>
     <string name="empty_friends_label">Add friends to begin.</string>
     <string name="sign_up_button">REGISTER</string>
     <string name="email_sent">An email was successfully sent with reset instructions.</string>
@@ -55,5 +55,7 @@
     <string name="background_description">background gradient color ocean blue</string>
     <string name="cancel_button_label">CANCEL</string>
     <string name="content_description_user_avatar">User Avatar</string>
+    <string name="content_description_user_checkmark">check mark for selected users</string>
+    <string name="push_message">You have a new Krakkensnap message from %s!</string>
 
 </resources>
