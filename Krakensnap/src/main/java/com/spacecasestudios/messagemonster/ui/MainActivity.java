@@ -316,6 +316,10 @@ public class MainActivity extends FragmentActivity implements
                 AlertDialog dialog= builder.create();
                 dialog.show();
                 break;
+            case R.id.action_message:
+                Intent messageIntent = new Intent(this,CreateMessageActivity.class);
+                startActivity(messageIntent);
+                break;
             default:
                 //TODO do not hard code strings this wayCaravaggio
                 Log.i(TAG, "None of the criteria were met");

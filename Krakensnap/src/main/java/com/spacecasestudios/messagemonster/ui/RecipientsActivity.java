@@ -207,6 +207,7 @@ public class RecipientsActivity extends Activity {
 
             return message;
         }
+
     }
 
     protected ArrayList<String> getRecipientIds() {

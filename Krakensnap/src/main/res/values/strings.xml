@@ -58,5 +58,6 @@
     <string name="content_description_user_checkmark">check mark for selected users</string>
     <string name="push_message">You have a new Krakkensnap message from %s!</string>
     <string name="menu_message_label">send a message</string>
+    <string name="title_activity_create_message">CreateMessageActivity</string>
 
 </resources>
