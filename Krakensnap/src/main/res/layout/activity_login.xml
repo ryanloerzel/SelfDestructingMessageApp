@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.spacecasestudios.messagemonster.ui.LoginActivity"
+    style="@style/BackgroundTheme">
+
+    <ImageView
+        android:id="@+id/titleImage"
+        style="@style/TitleTextImage"
+        android:src="@drawable/title_image" />
+
+    <ImageView
+        android:id="@+id/tentacleImage"
+        style="@style/TentacleImage"/>
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        style="@style/FieldContainer">
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/usernameField"
+            android:ems="10"
+            android:hint="@string/usernameHint"
+            android:layout_below="@+id/title"
+            android:textColorHint="@color/gray"
+            android:textSize="17sp"
+            />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/passwordField"
+            android:hint="@string/passwordHint"
+            android:layout_below="@+id/usernameField"
+            android:textColorHint="@color/gray"
+            android:textSize="17sp"/>
+
+
+        </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/buttonDivider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_layout"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/button_divider"/>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_marginRight="0dp"
+        android:layout_below="@+id/linear_layout"
+        android:layout_toLeftOf="@+id/buttonDivider"
+        style="@style/Button"/>
+
+    <Button
+        android:id="@+id/registerButton"
+        android:text="@string/sign_up_text"
+        style="@style/Button"
+        android:layout_marginLeft="0dp"
+        android:layout_below="@+id/linear_layout"
+        android:layout_toRightOf="@+id/buttonDivider" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forgot_password"
+        android:id="@+id/forgotPasswordText"
+        android:textSize="16sp"
+        android:textColor="#ffffffff"
+        android:paddingTop="15dp"
+        android:layout_below="@+id/buttonDivider"
+        android:layout_centerHorizontal="true" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
