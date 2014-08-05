@@ -7,8 +7,10 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 
 import com.spacecasestudios.messagemonster.R;
+import com.spacecasestudios.messagemonster.utilities.ParseConstants;
 import com.squareup.picasso.Callback;
 import com.squareup.picasso.Picasso;
 
@@ -18,6 +20,7 @@ import java.util.TimerTask;
 public class ViewImageActivity extends Activity {
 
     ProgressBar mProgressBar;
+    TextView mTextMessageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,31 +30,44 @@ public class ViewImageActivity extends Activity {
         ImageView imageView = (ImageView)findViewById(R.id.imageView);
         mProgressBar = (ProgressBar) findViewById(R.id.progressBar);
         mProgressBar.setVisibility(View.VISIBLE);
+        mTextMessageView = (TextView)findViewById(R.id.textMessageView);
 
-        Uri imageUri = getIntent().getData();
+        String messageType = getIntent().getExtras().getString(ParseConstants.KEY_FILE_TYPE);
 
-        Picasso.with(this).load(imageUri.toString()).into(imageView, new Callback() {
-            @Override
-            public void onSuccess() {
-                mProgressBar.setVisibility(View.INVISIBLE);
-                Timer timer = new Timer();
-                timer.schedule(new TimerTask() {
-                    @Override
-                    public void run() {
-                        finish();
-                    }
-                }, 10*1000);
-            }
+        if (messageType.equals(ParseConstants.TYPE_TEXT)){
+            mTextMessageView.setText(getIntent().getExtras().get(ParseConstants.KEY_TEXT_MESSAGE).toString());
+            mProgressBar.setVisibility(View.INVISIBLE);
+            Timer timer = new Timer();
+            timer.schedule(new TimerTask() {
+                @Override
+                public void run() {
+                    finish();
+                }
+            }, 10 * 1000);
+        }
+        else {
 
-            @Override
-            public void onError() {
+            Uri imageUri = getIntent().getData();
 
-            }
-        });
+            Picasso.with(this).load(imageUri.toString()).into(imageView, new Callback() {
+                @Override
+                public void onSuccess() {
+                    mProgressBar.setVisibility(View.INVISIBLE);
+                    Timer timer = new Timer();
+                    timer.schedule(new TimerTask() {
+                        @Override
+                        public void run() {
+                            finish();
+                        }
+                    }, 10 * 1000);
+                }
 
+                @Override
+                public void onError() {
 
-
-
+                }
+            });
+        }
 
         Timer timer = new Timer();
         timer.schedule(new TimerTask() {

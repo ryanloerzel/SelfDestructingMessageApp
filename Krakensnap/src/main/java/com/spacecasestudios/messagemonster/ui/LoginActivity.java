@@ -35,7 +35,6 @@ public class LoginActivity extends Activity {
         setContentView(R.layout.activity_login);
 
         ActionBar actionBar = getActionBar();
-        assert actionBar != null;
         actionBar.hide();
 
         mSignUpButton = (Button)findViewById(R.id.registerButton);

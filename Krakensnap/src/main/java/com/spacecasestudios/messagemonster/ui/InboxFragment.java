@@ -106,16 +106,31 @@ public class InboxFragment extends ListFragment {
         ParseObject message = mMessages.get(position);
         String messageType = message.getString(ParseConstants.KEY_FILE_TYPE);
         ParseFile file = message.getParseFile(ParseConstants.KEY_FILE);
+        Uri fileUri = null;
+        String textMessage = null;
 
-        Uri fileUri = Uri.parse(file.getUrl());
+        if(!messageType.equals(ParseConstants.TYPE_TEXT)){
+            fileUri = Uri.parse(file.getUrl());
+        }
+        else {
+            textMessage =  message.getString(ParseConstants.KEY_TEXT_MESSAGE);
+        }
 
         if (messageType.equals(ParseConstants.TYPE_IMAGE)){
             Intent intent = new Intent(getActivity(), ViewImageActivity.class);
+            intent.putExtra(ParseConstants.KEY_FILE_TYPE, messageType);
             intent.setData(fileUri);
+            startActivity(intent);
+        }
+        else if(messageType.equals(ParseConstants.TYPE_TEXT)){
+            Intent intent = new Intent(getActivity(), ViewImageActivity.class);
+            intent.putExtra(ParseConstants.KEY_FILE_TYPE, messageType);
+            intent.putExtra(ParseConstants.KEY_TEXT_MESSAGE, textMessage);
             startActivity(intent);
         }
         else {
             Intent intent = new Intent(Intent.ACTION_VIEW, fileUri);
+            intent.putExtra(ParseConstants.KEY_FILE_TYPE, messageType);
             intent.setDataAndType(fileUri, "video/*");
             startActivity(intent);
         }

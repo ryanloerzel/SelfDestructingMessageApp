@@ -48,6 +48,7 @@ public class RecipientsActivity extends Activity {
     protected String mFileType;
     protected GridView mGridView;
     protected Button mSendButton;
+    protected String mMessage;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,6 +62,7 @@ public class RecipientsActivity extends Activity {
 
         mMediaUri = getIntent().getData();
         mFileType = getIntent().getExtras().getString(ParseConstants.KEY_FILE_TYPE);
+        mMessage =  getIntent().getExtras().getString("Text Message");
 
         TextView emptyTextView = (TextView)findViewById(android.R.id.empty);
         mGridView.setEmptyView(emptyTextView);
@@ -189,14 +191,15 @@ public class RecipientsActivity extends Activity {
         message.put(ParseConstants.KEY_SENDER_ID, ParseUser.getCurrentUser().getObjectId());
         message.put(ParseConstants.KEY_SENDER_NAME, ParseUser.getCurrentUser().getUsername());
         message.put(ParseConstants.KEY_RECIPIENT_IDS, getRecipientIds());
-
         message.put(ParseConstants.KEY_FILE_TYPE, mFileType);
 
-        byte[] fileBytes = FileHelper.getByteArrayFromFile(this, mMediaUri);
-        if(fileBytes == null){
-            return null;
+        byte[] fileBytes = null;
+
+        if (!mFileType.equals(ParseConstants.TYPE_TEXT)) {
+            fileBytes = FileHelper.getByteArrayFromFile(this, mMediaUri);
         }
-        else {
+
+        if (mFileType.equals(ParseConstants.TYPE_IMAGE) || mFileType.equals(ParseConstants.TYPE_VIDEO)){
             if(mFileType.equals(ParseConstants.TYPE_IMAGE)){
                 fileBytes = FileHelper.reduceImageForUpload(fileBytes);
             }
@@ -206,6 +209,15 @@ public class RecipientsActivity extends Activity {
             message.put(ParseConstants.KEY_FILE, file);
 
             return message;
+        }
+
+        else if(mFileType.equals(ParseConstants.TYPE_TEXT)){
+            message.put(ParseConstants.KEY_TEXT_MESSAGE, mMessage);
+            return message;
+        }
+
+        else {
+            return null;
         }
 
     }
