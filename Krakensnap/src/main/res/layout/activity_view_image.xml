@@ -2,6 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/light_gray"
     tools:context="com.spacecasestudios.messagemonster.ui.ViewImageActivity">
 
 
@@ -11,7 +12,9 @@
         android:id="@+id/imageView"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:scaleType="fitCenter"/>
+        android:scaleType="fitCenter"
+        android:layout_margin="20dp"
+        android:padding="5dp" />
 
     <ProgressBar
         style="?android:attr/progressBarStyleLarge"
@@ -29,5 +32,6 @@
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:textSize="25sp"
-        android:textIsSelectable="false" />
+        android:textIsSelectable="false"
+        android:gravity="center_horizontal" />
 </RelativeLayout>

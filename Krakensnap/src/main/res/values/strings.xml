@@ -59,5 +59,6 @@
     <string name="push_message">You have a new Krakkensnap message from %s!</string>
     <string name="menu_message_label">send a message</string>
     <string name="title_activity_create_message">CreateMessageActivity</string>
+    <string name="label_create_a_message">Create Message</string>
 
 </resources>

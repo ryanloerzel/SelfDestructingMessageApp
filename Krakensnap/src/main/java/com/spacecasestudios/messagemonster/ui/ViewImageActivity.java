@@ -31,10 +31,12 @@ public class ViewImageActivity extends Activity {
         mProgressBar = (ProgressBar) findViewById(R.id.progressBar);
         mProgressBar.setVisibility(View.VISIBLE);
         mTextMessageView = (TextView)findViewById(R.id.textMessageView);
+        mTextMessageView.setVisibility(View.INVISIBLE);
 
         String messageType = getIntent().getExtras().getString(ParseConstants.KEY_FILE_TYPE);
 
         if (messageType.equals(ParseConstants.TYPE_TEXT)){
+            mTextMessageView.setVisibility(View.VISIBLE);
             mTextMessageView.setText(getIntent().getExtras().get(ParseConstants.KEY_TEXT_MESSAGE).toString());
             mProgressBar.setVisibility(View.INVISIBLE);
             Timer timer = new Timer();

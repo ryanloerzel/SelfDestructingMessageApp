@@ -103,8 +103,9 @@
 
         <activity
             android:name=".ui.CreateMessageActivity"
-            android:label="@string/title_activity_create_message"
-            android:parentActivityName=".ui.MainActivity" >
+            android:label="@string/label_create_a_message"
+            android:parentActivityName=".ui.MainActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.spacecasestudios.messagemonster.ui.MainActivity" />

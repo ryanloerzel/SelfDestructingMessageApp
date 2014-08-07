@@ -33,6 +33,8 @@ public class InboxFragment extends ListFragment {
     protected SwipeRefreshLayout mSwipeRefreshLayout;
     protected ImageView mEmptyImage;
 
+
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
