@@ -76,13 +76,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="212a4d6d-fd9a-4146-9eb4-6df21123434a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Krakensnap/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Krakensnap/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/InboxFragment.java" afterPath="$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/InboxFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/ViewImageActivity.java" afterPath="$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/ViewImageActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Krakensnap/src/main/res/layout/activity_create_message.xml" afterPath="$PROJECT_DIR$/Krakensnap/src/main/res/layout/activity_create_message.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Krakensnap/src/main/res/layout/activity_view_image.xml" afterPath="$PROJECT_DIR$/Krakensnap/src/main/res/layout/activity_view_image.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Krakensnap/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/Krakensnap/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Krakensnap/src/main/res/layout/user_grid.xml" afterPath="$PROJECT_DIR$/Krakensnap/src/main/res/layout/user_grid.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-hdpi/ic_action_camera.png" afterPath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-hdpi/ic_action_camera.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-mdpi/ic_action_camera.png" afterPath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-mdpi/ic_action_camera.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-xhdpi/ic_action_camera.png" afterPath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-xhdpi/ic_action_camera.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-hdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-mdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-xhdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-xxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-xxhdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/CreateMessageActivity.java" afterPath="$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/CreateMessageActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/adapter/MessageAdapter.java" afterPath="$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/adapter/MessageAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MessageMonster.iws" />
@@ -114,32 +116,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1700">
               <caret line="68" column="29" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/res/layout/activity_main.xml">
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_retrieve_password.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/res/layout/activity_retrieve_password.xml">
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -184,11 +160,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateMessageActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="CreateMessageActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/CreateMessageActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6972256" vertical-offset="0" max-vertical-offset="829">
+              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -197,17 +173,37 @@
       <file leaf-file-name="InboxFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/InboxFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="2414">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2414">
               <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ViewImageActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SectionsPagerAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/adapter/SectionsPagerAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="259" max-vertical-offset="1088">
+              <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/adapter/MessageAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1343">
+              <caret line="62" column="65" selection-start-line="62" selection-start-column="65" selection-end-line="62" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ViewImageActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/ViewImageActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4716526" vertical-offset="0" max-vertical-offset="1207">
+            <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1207">
               <caret line="38" column="55" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
               <folding />
             </state>
@@ -1057,9 +1053,7 @@
         <option value="$PROJECT_DIR$/Krakensnap/src/main/res/menu/main.xml" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/LoginActivity.java" />
-        <option value="$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/adapter/MessageAdapter.java" />
         <option value="$PROJECT_DIR$/Krakensnap/src/main/res/layout-large/activity_login.xml" />
-        <option value="$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/CreateMessageActivity.java" />
         <option value="$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/RecipientsActivity.java" />
         <option value="$PROJECT_DIR$/Krakensnap/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/Krakensnap/src/main/res/layout/activity_create_message.xml" />
@@ -1067,6 +1061,8 @@
         <option value="$PROJECT_DIR$/Krakensnap/src/main/res/layout/activity_view_image.xml" />
         <option value="$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/InboxFragment.java" />
         <option value="$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/ViewImageActivity.java" />
+        <option value="$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/adapter/MessageAdapter.java" />
+        <option value="$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/CreateMessageActivity.java" />
       </list>
     </option>
   </component>
@@ -1848,7 +1844,11 @@
       <created>1407210492820</created>
       <updated>1407210492820</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Small UI tweaks: uniform button colors and centered the the text box in ViewImageActivity.  TODO: Update logo icon and fix camera icon color">
+      <created>1407379208400</created>
+      <updated>1407379208400</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1930,7 +1930,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Implemented navigation between the login and sign up activities" />
     <MESSAGE value="Created an error dialog for the sign up activity" />
     <MESSAGE value="Added the Parse.com library. Added login and logout functionality.  Added a progress bar indicator." />
     <MESSAGE value="Added functionality for users to retrieve lost passwords" />
@@ -1955,7 +1954,8 @@
     <MESSAGE value="added push notifications and changed title to krakensnap" />
     <MESSAGE value="added a message icon to the MainActivity title bar" />
     <MESSAGE value="Updated the text message scree UI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated the text message scree UI" />
+    <MESSAGE value="Small UI tweaks: uniform button colors and centered the the text box in ViewImageActivity.  TODO: Update logo icon and fix camera icon color" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small UI tweaks: uniform button colors and centered the the text box in ViewImageActivity.  TODO: Update logo icon and fix camera icon color" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2159,20 +2159,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/adapter/SectionsPagerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1088">
-          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/adapter/MessageAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="403" max-vertical-offset="1343">
-          <caret line="61" column="95" selection-start-line="61" selection-start-column="95" selection-end-line="61" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/res/drawable-hdpi/ic_message_icon.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -2215,6 +2201,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2323" max-vertical-offset="4318">
           <caret line="213" column="60" selection-start-line="213" selection-start-column="60" selection-end-line="213" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2349,10 +2336,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/CreateMessageActivity.java">
+    <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/ViewImageActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="1020">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1207">
+          <caret line="38" column="55" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
           <folding />
         </state>
       </provider>
@@ -2365,10 +2352,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/ViewImageActivity.java">
+    <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/adapter/SectionsPagerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4716526" vertical-offset="0" max-vertical-offset="1207">
-          <caret line="38" column="55" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="259" max-vertical-offset="1088">
+          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/adapter/MessageAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1343">
+          <caret line="62" column="65" selection-start-line="62" selection-start-column="65" selection-end-line="62" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/CreateMessageActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6972256" vertical-offset="0" max-vertical-offset="829">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding />
         </state>
       </provider>
