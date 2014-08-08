@@ -11,6 +11,7 @@ import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.parse.FindCallback;
 import com.parse.ParseException;
@@ -152,11 +153,13 @@ public class EditFriendsActivity extends Activity {
             if( mGridView.isItemChecked(position)){
                 mFriendsRelation.add(mUsers.get(position));
                 checkImageView.setVisibility(View.VISIBLE);
+                Toast.makeText(EditFriendsActivity.this, "Checked!", Toast.LENGTH_LONG).show();
             }
             else{
                 //remove
                 mFriendsRelation.remove(mUsers.get(position));
                 checkImageView.setVisibility(View.INVISIBLE);
+                Toast.makeText(EditFriendsActivity.this, "Not Checked!", Toast.LENGTH_LONG).show();
             }
 
             mCurrentUser.saveInBackground(new SaveCallback() {
