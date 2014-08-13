@@ -30,8 +30,8 @@
         android:text="Message"
         android:id="@+id/textMessageView"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
         android:textSize="25sp"
         android:textIsSelectable="false"
         android:gravity="center_horizontal" />
+
 </RelativeLayout>

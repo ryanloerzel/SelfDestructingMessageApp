@@ -76,19 +76,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="212a4d6d-fd9a-4146-9eb4-6df21123434a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-mdpi/avatar_empty.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-xxhdpi/ic_action_camera.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-hdpi/ic_action_quotes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-mdpi/ic_action_quotes.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-hdpi/avatar_empty.png" afterPath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-hdpi/avatar_empty.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-xhdpi/avatar_empty.png" afterPath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-xhdpi/avatar_empty.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-xxhdpi/avatar_empty.png" afterPath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-xxhdpi/avatar_empty.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-hdpi/avatar_selected.png" afterPath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-hdpi/avatar_selected.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-mdpi/avatar_selected.png" afterPath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-mdpi/avatar_selected.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-xhdpi/avatar_selected.png" afterPath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-xhdpi/avatar_selected.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-xxhdpi/avatar_selected.png" afterPath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-xxhdpi/avatar_selected.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/CreateMessageActivity.java" afterPath="$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/CreateMessageActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/EditFriendsActivity.java" afterPath="$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/EditFriendsActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-xhdpi/ic_action_quotes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-hdpi/quotes.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-hdpi/ic_action_quotes.png" afterPath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-hdpi/ic_action_quotes.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-mdpi/ic_action_quotes.png" afterPath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-mdpi/ic_action_quotes.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-hdpi/ic_message_icon.png" afterPath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-hdpi/ic_message_icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-mdpi/ic_message_icon.png" afterPath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-mdpi/ic_message_icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-xhdpi/ic_message_icon.png" afterPath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-xhdpi/ic_message_icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-xxhdpi/ic_message_icon.png" afterPath="$PROJECT_DIR$/Krakensnap/src/main/res/drawable-xxhdpi/ic_message_icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Krakensnap/src/main/res/layout/activity_view_image.xml" afterPath="$PROJECT_DIR$/Krakensnap/src/main/res/layout/activity_view_image.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MessageMonster.iws" />
@@ -125,8 +121,41 @@
       <file leaf-file-name="EditFriendsActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/EditFriendsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2652" max-vertical-offset="3111">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1683" max-vertical-offset="2516">
               <caret line="156" column="73" selection-start-line="156" selection-start-column="73" selection-end-line="156" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_view_image.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/res/layout/activity_view_image.xml">
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="731">
+              <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HandlerThread.class" pinned="false" current="true" current-in-tab="true">
+        <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/os/HandlerThread.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.33035713" vertical-offset="320" max-vertical-offset="459">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ViewImageActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/ViewImageActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="1207">
+              <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -142,7 +171,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="LoginActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/LoginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="799" max-vertical-offset="1802">
@@ -984,7 +1013,6 @@
         <option value="$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/RecipientsActivity.java" />
         <option value="$PROJECT_DIR$/Krakensnap/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/Krakensnap/src/main/res/layout/user_grid.xml" />
-        <option value="$PROJECT_DIR$/Krakensnap/src/main/res/layout/activity_view_image.xml" />
         <option value="$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/InboxFragment.java" />
         <option value="$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/ViewImageActivity.java" />
         <option value="$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/adapter/MessageAdapter.java" />
@@ -992,6 +1020,7 @@
         <option value="$PROJECT_DIR$/Krakensnap/src/main/res/menu/create_message.xml" />
         <option value="$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/CreateMessageActivity.java" />
         <option value="$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/EditFriendsActivity.java" />
+        <option value="$PROJECT_DIR$/Krakensnap/src/main/res/layout/activity_view_image.xml" />
       </list>
     </option>
   </component>
@@ -1064,6 +1093,148 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MessageMonster" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SelfDestructingMessageApp" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Krakensnap" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MessageMonster" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SelfDestructingMessageApp" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Krakensnap" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MessageMonster" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SelfDestructingMessageApp" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Krakensnap" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MessageMonster" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SelfDestructingMessageApp" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Krakensnap" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messagemonster" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MessageMonster" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SelfDestructingMessageApp" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Krakensnap" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messagemonster" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -1084,7 +1255,7 @@
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="192.168.56.101:5555" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="40029269" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="MyAvd0" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="428" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteToolWindowManager.WIDTH" value="269" />
@@ -1485,7 +1656,11 @@
       <created>1407468585527</created>
       <updated>1407468585527</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="UI -- Updated the edit friends selection icons so that the checked and unchecked circles are aligned.">
+      <created>1407899429662</created>
+      <updated>1407899429662</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1495,29 +1670,29 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.007995736" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32918552" sideWeight="0.4996151" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35859728" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14" sideWeight="0.17004265" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.84444445" sideWeight="0.37739873" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15333334" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.8393665" sideWeight="0.3317937" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.84444445" sideWeight="0.37739873" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28288707" sideWeight="0.6281755" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14" sideWeight="0.82995737" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2822222" sideWeight="0.6279318" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.84444445" sideWeight="0.6226013" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2491731" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22121535" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23303168" sideWeight="0.49756098" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22121535" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23222223" sideWeight="0.49733475" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.007995736" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13800906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1537,7 +1712,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Added functionality for users to retrieve lost passwords" />
     <MESSAGE value="Created an InboxFragmentClass" />
     <MESSAGE value="Connection Test" />
     <MESSAGE value="Added the Edit Friends screen, added functionality to query Parse.com and create friend relationships.  Displayed list of friends in the Friends Fragment activity" />
@@ -1562,7 +1736,8 @@
     <MESSAGE value="Small UI tweaks: uniform button colors and centered the the text box in ViewImageActivity.  TODO: Update logo icon and fix camera icon color" />
     <MESSAGE value="Simplified the logo and fixed the camera icon opacity.  TODO adjust icon sizes in the inbox list." />
     <MESSAGE value="Added a send icon to the menu bar of CreateMessageActivity to compensate for the fact that some keyboards hide the bottom send button. Refactored the sendTextMessageFunction" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a send icon to the menu bar of CreateMessageActivity to compensate for the fact that some keyboards hide the bottom send button. Refactored the sendTextMessageFunction" />
+    <MESSAGE value="UI -- Updated the edit friends selection icons so that the checked and unchecked circles are aligned." />
+    <option name="LAST_COMMIT_MESSAGE" value="UI -- Updated the edit friends selection icons so that the checked and unchecked circles are aligned." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1570,14 +1745,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/res/values/dimens.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <caret line="6" column="51" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/utilities/FileHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.9032258" vertical-offset="0" max-vertical-offset="1683">
@@ -1861,24 +2028,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/res/layout/activity_view_image.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="731">
-          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/ViewImageActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1207">
-          <caret line="38" column="55" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/adapter/SectionsPagerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="259" max-vertical-offset="1088">
@@ -1909,10 +2058,10 @@
         <state vertical-scroll-proportion="0.53424656" vertical-offset="69" max-vertical-offset="833">
           <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
           <folding>
-            <element signature="e#231#266#0" expanded="true" />
-            <element signature="e#292#327#0" expanded="true" />
-            <element signature="e#351#384#0" expanded="true" />
-            <element signature="e#411#444#0" expanded="true" />
+            <element signature="e#231#266#0" expanded="false" />
+            <element signature="e#292#327#0" expanded="false" />
+            <element signature="e#351#384#0" expanded="false" />
+            <element signature="e#411#444#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1943,6 +2092,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.678571" vertical-offset="0" max-vertical-offset="4250">
           <caret line="45" column="37" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1961,14 +2111,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/EditFriendsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1553" max-vertical-offset="2516">
-          <caret line="156" column="73" selection-start-line="156" selection-start-column="73" selection-end-line="156" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/SignUpActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1428">
@@ -1981,6 +2123,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="1649">
           <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/EditFriendsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1683" max-vertical-offset="2516">
+          <caret line="156" column="73" selection-start-line="156" selection-start-column="73" selection-end-line="156" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/ViewImageActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="1207">
+          <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/res/layout/activity_view_image.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="731">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/os/HandlerThread.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33035713" vertical-offset="320" max-vertical-offset="459">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
