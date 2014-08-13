@@ -65,6 +65,9 @@ public class CreateMessageActivity extends Activity {
         return super.onOptionsItemSelected(item);
     }
 
+    /*Check to make sure the user has  entered at least one character.
+    // Transition to the Recipients Activity class
+     */
     private void sendTextMessage() {
         mMessage = mMessageText.getText().toString();
         int length = mMessageText.getText().length();

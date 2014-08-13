@@ -151,9 +151,10 @@ public class EditFriendsActivity extends Activity {
             ImageView checkImageView = (ImageView)view.findViewById(R.id.checkImageView);
 
             if( mGridView.isItemChecked(position)){
+                String name = mUsers.get(position).getUsername();
                 mFriendsRelation.add(mUsers.get(position));
                 checkImageView.setVisibility(View.VISIBLE);
-                Toast.makeText(EditFriendsActivity.this, "Checked!", Toast.LENGTH_LONG).show();
+                Toast.makeText(EditFriendsActivity.this, "Checked!"+ name, Toast.LENGTH_LONG).show();
             }
             else{
                 //remove
