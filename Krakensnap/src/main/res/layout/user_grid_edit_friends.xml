@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.spacecasestudios.messagemonster.ui.MainActivity$PlaceholderFragment">
+
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/friendsGrid"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:numColumns="auto_fit"
+        android:columnWidth="90dp"
+        android:stretchMode="columnWidth"
+        android:horizontalSpacing="@dimen/user_grid_spacing"
+        android:verticalSpacing="@dimen/user_grid_spacing"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@android:id/empty"
+        android:text="@string/empty_friends_label"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEND"
+        android:id="@+id/send_button"
+        style="@style/Button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:visibility="invisible" />
+
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        style="@style/FieldContainer"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="start"
+        android:visibility="invisible">
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/contactEmail"
+            android:hint="enter contact email"
+            android:textColorHint="@color/gray"
+            android:visibility="invisible"
+            android:textSize="17sp"
+            android:textColor="@color/off_white" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VALIDATE EMAIL"
+        android:id="@+id/validateButton"
+        android:layout_below="@+id/linear_layout"
+        android:visibility="invisible"
+        android:textColor="@color/off_white"
+        style="@style/Button"/>
+
+</RelativeLayout>
