@@ -2,6 +2,7 @@ package com.spacecasestudios.messagemonster.ui;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
@@ -40,6 +41,8 @@ public class EditFriendsActivity extends Activity {
     protected Button mValidateEmail;
     protected String mEmail;
     protected LinearLayout mLayout;
+   protected ImageView mCheckImageView;
+
 
 
     @Override
@@ -136,6 +139,10 @@ public class EditFriendsActivity extends Activity {
         return super.onOptionsItemSelected(item);
     }
 
+    //***********************************************************************************
+    //For each Parse user that is a friend of the current user, overlay a check mark
+    //image on that friends photo
+    //***********************************************************************************
     private void addFriendCheckmarks() {
         mFriendsRelation.getQuery().findInBackground(new FindCallback<ParseUser>() {
             @Override
@@ -161,56 +168,103 @@ public class EditFriendsActivity extends Activity {
     protected AdapterView.OnItemClickListener mOnItemClickListener = new AdapterView.OnItemClickListener() {
         @Override
         public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
-            ImageView checkImageView = (ImageView) view.findViewById(R.id.checkImageView);
+            mCheckImageView = (ImageView) view.findViewById(R.id.checkImageView);
 
             if (mGridView.isItemChecked(position)) {
-                String email = mUsers.get(position).getString("email");
-                setEmail(email);
-                mFriendsRelation.add(mUsers.get(position));
-                checkImageView.setVisibility(View.VISIBLE);
-                //Toast.makeText(EditFriendsActivity.this, "Checked! "+ email, Toast.LENGTH_SHORT).show();
+
+               checkEmail(position);
+
             } else {
                 //remove
                 mFriendsRelation.remove(mUsers.get(position));
-                checkImageView.setVisibility(View.INVISIBLE);
+                mCheckImageView.setVisibility(View.INVISIBLE);
                 Toast.makeText(EditFriendsActivity.this, "Not Checked!", Toast.LENGTH_SHORT).show();
+
+                mCurrentUser.saveInBackground(new SaveCallback() {
+                    @Override
+                    public void done(ParseException e) {
+                        if (e != null) {
+                            Log.e(TAG, e.getMessage());
+                        }
+                    }
+                });
             }
 
-            mCurrentUser.saveInBackground(new SaveCallback() {
-                @Override
-                public void done(ParseException e) {
-                    if (e != null) {
-                        Log.e(TAG, e.getMessage());
-                    }
-                }
-            });
+// This was originally here but I had to move it to two different spots to get it to save a friend if emails matched
+// mCurrentUser.saveInBackground(new SaveCallback() {
+//                @Override
+//                public void done(ParseException e) {
+//                    if (e != null) {
+//                        Log.e(TAG, e.getMessage());
+//                    }
+//                }
+//            });
+
+
         }
 
-        private void setEmail(final String contactEmail) {
+    };
+
+    private void checkEmail(final int position) {
+        final String email = mUsers.get(position).getString("email");
+        showEmailValidationTextField(Boolean.TRUE);
+
+        mValidateEmail.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mEmail = mContactEmail.getText().toString();
+                if (mEmail.equals(email)) {
+                    Toast.makeText(EditFriendsActivity.this, "Match! " + email, Toast.LENGTH_SHORT).show();
+                    mFriendsRelation.add(mUsers.get(position));
+                    mCheckImageView.setVisibility(View.VISIBLE);
+
+                    mCurrentUser.saveInBackground(new SaveCallback() {
+                        @Override
+                        public void done(ParseException e) {
+                            if (e != null) {
+                                Log.e(TAG, e.getMessage());
+                            }
+                        }
+                    });
+
+
+                } else {
+                    Toast.makeText(EditFriendsActivity.this, "Bummer! " + email, Toast.LENGTH_SHORT).show();
+                    mGridView.setItemChecked(position,false);
+                }
+                showEmailValidationTextField(Boolean.FALSE);
+            }
+        });
+
+
+    }
+
+    private class MyAsyncTask extends AsyncTask<Void, Void, Void>
+    {
+        @Override
+        protected Void doInBackground(Void... params) {
+            return null;
+        }
+        @Override
+        protected void onPostExecute(Void result) {
+        }
+    }
+
+    private void showEmailValidationTextField(Boolean show) {
+        if (show){
             mGridView.setVisibility(View.INVISIBLE);
             mLayout.setVisibility(View.VISIBLE);
             mContactEmail.setVisibility(View.VISIBLE);
             mValidateEmail.setVisibility(View.VISIBLE);
-
-            mValidateEmail.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    mEmail = mContactEmail.getText().toString();
-                    if (mEmail.equals(contactEmail)) {
-                        Toast.makeText(EditFriendsActivity.this, "Match! " + contactEmail, Toast.LENGTH_SHORT).show();
-
-                    } else {
-                        Toast.makeText(EditFriendsActivity.this, "Bummer! " + contactEmail, Toast.LENGTH_SHORT).show();
-                    }
-                    mContactEmail.setVisibility(View.INVISIBLE);
-                    mValidateEmail.setVisibility(View.INVISIBLE);
-                    mLayout.setVisibility(View.INVISIBLE);
-                    mGridView.setVisibility(View.VISIBLE);
-                }
-            });
+        }
+        else{
+            mContactEmail.setVisibility(View.INVISIBLE);
+            mValidateEmail.setVisibility(View.INVISIBLE);
+            mLayout.setVisibility(View.INVISIBLE);
+            mGridView.setVisibility(View.VISIBLE);
         }
 
-    };
+    }
 
 }
 
