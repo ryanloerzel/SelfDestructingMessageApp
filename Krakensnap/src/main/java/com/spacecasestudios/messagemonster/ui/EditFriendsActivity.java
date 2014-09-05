@@ -189,16 +189,16 @@ public class EditFriendsActivity extends Activity {
                     }
                 });
             }
-
-// This was originally here but I had to move it to two different spots to get it to save a friend if emails matched
-// mCurrentUser.saveInBackground(new SaveCallback() {
-//                @Override
-//                public void done(ParseException e) {
-//                    if (e != null) {
-//                        Log.e(TAG, e.getMessage());
-//                    }
-//                }
-//            });
+            Toast.makeText(EditFriendsActivity.this, "Outside", Toast.LENGTH_SHORT).show();
+            //               This was originally here but I had to move it to two different spots to get it to save a friend if emails matched
+            //                mCurrentUser.saveInBackground(new SaveCallback() {
+            //                @Override
+            //                public void done(ParseException e) {
+            //                    if (e != null) {
+            //                        Log.e(TAG, e.getMessage());
+            //                    }
+            //                }
+            //            });
 
 
         }
@@ -217,7 +217,7 @@ public class EditFriendsActivity extends Activity {
                     Toast.makeText(EditFriendsActivity.this, "Match! " + email, Toast.LENGTH_SHORT).show();
                     mFriendsRelation.add(mUsers.get(position));
                     mCheckImageView.setVisibility(View.VISIBLE);
-
+                    System.out.print("Inside");
                     mCurrentUser.saveInBackground(new SaveCallback() {
                         @Override
                         public void done(ParseException e) {

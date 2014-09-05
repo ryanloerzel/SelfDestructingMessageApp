@@ -64,7 +64,7 @@
             android:textColorHint="@color/gray"
             android:visibility="invisible"
             android:textSize="17sp"
-            android:textColor="@color/off_white" />
+            android:textColor="@color/gray" />
 
 
     </LinearLayout>

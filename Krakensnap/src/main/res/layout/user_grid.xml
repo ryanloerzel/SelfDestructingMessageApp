@@ -26,7 +26,13 @@
         android:id="@android:id/empty"
         android:text="@string/empty_friends_label"
 
-        />
+        android:layout_below="@+id/emptyFriendsImage"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:textColor="#B3b3b3"
+        android:textSize="20sp" />
 
     <Button
         android:layout_width="match_parent"
@@ -39,6 +45,15 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/emptyFriendsImage"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/empty_friends"
         android:visibility="invisible" />
 
 </RelativeLayout>

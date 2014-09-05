@@ -75,6 +75,7 @@ public class InboxFragment extends ListFragment {
 
                     if(mMessages.size() == 0){
                         mEmptyImage.setVisibility(View.VISIBLE);
+                        
                     }
                     else {
                         mEmptyImage.setVisibility(View.INVISIBLE);

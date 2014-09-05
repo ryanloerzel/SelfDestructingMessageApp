@@ -1,6 +1,7 @@
 package com.spacecasestudios.messagemonster.ui;
 
 import android.app.AlertDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.util.Log;
@@ -8,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.GridView;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.parse.FindCallback;
@@ -32,11 +34,14 @@ public class FriendsFragment extends Fragment {
     protected ParseRelation<ParseUser> mFriendsRelation;
     protected ParseUser mCurrentUser;
     protected GridView mGridView;
+    protected ImageView mEmptyFriendsImage;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.user_grid, container, false);
+
+        mEmptyFriendsImage = (ImageView)rootView.findViewById(R.id.emptyFriendsImage);
 
         mGridView = (GridView)rootView.findViewById(R.id.friendsGrid);
         TextView emptyTextView = (TextView)rootView.findViewById(android.R.id.empty);
@@ -63,6 +68,20 @@ public class FriendsFragment extends Fragment {
                getActivity().setProgressBarIndeterminateVisibility(false);
                if( e == null) {
                    mFriends = friends;
+
+                   if(mFriends.size() == 0){
+                       mEmptyFriendsImage.setVisibility(View.VISIBLE);
+                       mEmptyFriendsImage.setOnClickListener(new View.OnClickListener() {
+                           @Override
+                           public void onClick(View view) {
+                               Intent intent = new Intent(getActivity(),EditFriendsActivity.class);
+                               startActivity(intent);
+                           }
+                       });
+                   }
+                   else {
+                       mEmptyFriendsImage.setVisibility(View.INVISIBLE);
+                   }
 
                    String[] usernames = new String[mFriends.size()];
                    int i = 0;
