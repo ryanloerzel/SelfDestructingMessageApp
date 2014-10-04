@@ -2,7 +2,6 @@ package com.spacecasestudios.messagemonster.ui;
 
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
@@ -178,7 +177,7 @@ public class EditFriendsActivity extends Activity {
                 //remove
                 mFriendsRelation.remove(mUsers.get(position));
                 mCheckImageView.setVisibility(View.INVISIBLE);
-                Toast.makeText(EditFriendsActivity.this, "Not Checked!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(EditFriendsActivity.this, "Contact has been removed", Toast.LENGTH_SHORT).show();
 
                 mCurrentUser.saveInBackground(new SaveCallback() {
                     @Override
@@ -189,17 +188,6 @@ public class EditFriendsActivity extends Activity {
                     }
                 });
             }
-            Toast.makeText(EditFriendsActivity.this, "Outside", Toast.LENGTH_SHORT).show();
-            //               This was originally here but I had to move it to two different spots to get it to save a friend if emails matched
-            //                mCurrentUser.saveInBackground(new SaveCallback() {
-            //                @Override
-            //                public void done(ParseException e) {
-            //                    if (e != null) {
-            //                        Log.e(TAG, e.getMessage());
-            //                    }
-            //                }
-            //            });
-
 
         }
 
@@ -214,10 +202,9 @@ public class EditFriendsActivity extends Activity {
             public void onClick(View view) {
                 mEmail = mContactEmail.getText().toString();
                 if (mEmail.equals(email)) {
-                    Toast.makeText(EditFriendsActivity.this, "Match! " + email, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(EditFriendsActivity.this, "Success! " + email + " has been added to your friends.", Toast.LENGTH_SHORT).show();
                     mFriendsRelation.add(mUsers.get(position));
                     mCheckImageView.setVisibility(View.VISIBLE);
-                    System.out.print("Inside");
                     mCurrentUser.saveInBackground(new SaveCallback() {
                         @Override
                         public void done(ParseException e) {
@@ -229,7 +216,7 @@ public class EditFriendsActivity extends Activity {
 
 
                 } else {
-                    Toast.makeText(EditFriendsActivity.this, "Bummer! " + email, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(EditFriendsActivity.this, "Sorry, invalid email", Toast.LENGTH_SHORT).show();
                     mGridView.setItemChecked(position,false);
                 }
                 showEmailValidationTextField(Boolean.FALSE);
@@ -237,17 +224,6 @@ public class EditFriendsActivity extends Activity {
         });
 
 
-    }
-
-    private class MyAsyncTask extends AsyncTask<Void, Void, Void>
-    {
-        @Override
-        protected Void doInBackground(Void... params) {
-            return null;
-        }
-        @Override
-        protected void onPostExecute(Void result) {
-        }
     }
 
     private void showEmailValidationTextField(Boolean show) {
@@ -268,39 +244,3 @@ public class EditFriendsActivity extends Activity {
 
 }
 
-
-
-
-
-
-
-//        private String emailValidation() {
-//            final String[] google = new String[1];
-//            AlertDialog.Builder alert = new AlertDialog.Builder(EditFriendsActivity.this);
-//
-//
-//            alert.setTitle("Add a contact");
-//            alert.setMessage("Please enter this contact's email address to add");
-//
-//            // Set an EditText view to get user input
-//            final EditText input = new EditText(EditFriendsActivity.this);
-//            alert.setView(input);
-//
-//
-//            alert.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
-//                public void onClick(DialogInterface dialog, int whichButton) {
-//                    String value = String.valueOf(input.getText());
-//                    google[0] = value;
-//                }
-//            });
-//
-//            alert.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
-//                public void onClick(DialogInterface dialog, int whichButton) {
-//                    // Canceled.
-//                }
-//            });
-//
-//            alert.show();
-//            return google[0];
-//
-//        }
