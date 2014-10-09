@@ -1,3 +1,9 @@
+/**************************************************************************************************
+ * File EditFriendsActivity.java
+ * Author: Ryan Loerzel
+ * Created: July 16, 2014
+ * Description: Add and remove contacts
+ **************************************************************************************************/
 package com.spacecasestudios.messagemonster.ui;
 
 import android.app.Activity;
@@ -66,6 +72,12 @@ public class EditFriendsActivity extends Activity {
 
     @Override
     protected void onResume() {
+        /**
+         * Retrieve a List of of ParseUser Objects from parse.com, sorted by username.
+         * Set the progress bar to visible while loading and invisible when finished
+         * Assign the ParseUser List to the mUsers variable and create an array of user names
+         * Set the Grid view to hold the Parse user names
+         */
         super.onResume();
 
         mCurrentUser = ParseUser.getCurrentUser();
@@ -80,29 +92,17 @@ public class EditFriendsActivity extends Activity {
         }
         //***********************************************************************************
 
-        //***********************************************************************************
-        //Retrieve a List of of ParseUser Objects from the parse.com, sorted by username
-        //Set the progress bar to visible while loading and invisible when finished
-        //Assign the ParseUser List to the mUsers variable and create an array of user names
-        //Set the Grid view to hold the Parse user names
-        //***********************************************************************************
         ParseQuery<ParseUser> query = ParseUser.getQuery();
         query.orderByAscending(ParseConstants.KEY_USERNAME);
         query.setLimit(1000);
         setProgressBarIndeterminateVisibility(true);
         query.findInBackground(new FindCallback<ParseUser>() {
             @Override
-            public void done(List<ParseUser> users, ParseException e) {
+            public void done(List<ParseUser> parseUsers, ParseException e) {
                 setProgressBarIndeterminateVisibility(false);
                 if (e == null) {
-                    //success
-                    mUsers = users;
-                    String[] usernames = new String[mUsers.size()];
-                    int i = 0;
-                    for (ParseUser user : mUsers) {
-                        usernames[i] = user.getUsername();
-                        i++;
-                    }
+                    /**If e == null then the query was successful and Parse Users were returned*/
+                    mUsers = parseUsers;
                     if (mGridView.getAdapter() == null) {
                         UserAdapter adapter = new UserAdapter(EditFriendsActivity.this, mUsers);
                         mGridView.setAdapter(adapter);
@@ -128,21 +128,20 @@ public class EditFriendsActivity extends Activity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
+        /**Handle action bar item clicks here. The action bar will
+         *  automatically handle clicks on the Home/Up button, so long
+         *  as you specify a parent activity in AndroidManifest.xml.
+         */
         int id = item.getItemId();
-        if (id == R.id.action_settings) {
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
+        return id == R.id.action_settings || super.onOptionsItemSelected(item);
     }
 
-    //***********************************************************************************
-    //For each Parse user that is a friend of the current user, overlay a check mark
-    //image on that friends photo
-    //***********************************************************************************
+
     private void addFriendCheckmarks() {
+    /**
+     * If a parse user is one of the current users contacts,
+     * then a check mark will be displayed on that parse users icon.
+     */
         mFriendsRelation.getQuery().findInBackground(new FindCallback<ParseUser>() {
             @Override
             public void done(List<ParseUser> friends, ParseException e) {
@@ -165,6 +164,10 @@ public class EditFriendsActivity extends Activity {
     }
 
     protected AdapterView.OnItemClickListener mOnItemClickListener = new AdapterView.OnItemClickListener() {
+        /**
+         * Prompt user for email verification when adding a contact.
+         * Remove check mark and relationship when deleting a contact.
+         */
         @Override
         public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
             mCheckImageView = (ImageView) view.findViewById(R.id.checkImageView);
@@ -194,13 +197,24 @@ public class EditFriendsActivity extends Activity {
     };
 
     private void checkEmail(final int position) {
+    /**
+     * Retrieve the email from the parse user object at the current position.
+     * The current position will be the contact icon touched by the user
+     * Prompt the user to enter an email address.  If the email matches
+     * the current mUser object email, then a check mark will be added,
+     * a toast message will appear, and the contact will be added to the friends list.
+     * If the there is not a match then the user will receive a toast message.
+     * @param int position
+     * @return Nothing.
+     */
         final String email = mUsers.get(position).getString("email");
         showEmailValidationTextField(Boolean.TRUE);
 
         mValidateEmail.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mEmail = mContactEmail.getText().toString();
+
+                 mEmail =  mContactEmail.getText().toString();
                 if (mEmail.equals(email)) {
                     Toast.makeText(EditFriendsActivity.this, "Success! " + email + " has been added to your friends.", Toast.LENGTH_SHORT).show();
                     mFriendsRelation.add(mUsers.get(position));
@@ -227,6 +241,12 @@ public class EditFriendsActivity extends Activity {
     }
 
     private void showEmailValidationTextField(Boolean show) {
+    /**
+     * Display a text field for user input or remove the text field for user input
+     * depending on the parameter, show.
+     * @param boolean show
+     * @return Nothing.
+     */
         if (show){
             mGridView.setVisibility(View.INVISIBLE);
             mLayout.setVisibility(View.VISIBLE);
@@ -234,6 +254,7 @@ public class EditFriendsActivity extends Activity {
             mValidateEmail.setVisibility(View.VISIBLE);
         }
         else{
+            mContactEmail.setText("");
             mContactEmail.setVisibility(View.INVISIBLE);
             mValidateEmail.setVisibility(View.INVISIBLE);
             mLayout.setVisibility(View.INVISIBLE);

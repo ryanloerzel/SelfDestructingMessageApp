@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="4" />
+  </component>
   <component name="AndroidConfiguredLogFilters">
     <filters>
       <filter>
@@ -76,7 +79,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="212a4d6d-fd9a-4146-9eb4-6df21123434a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Krakensnap/build.gradle" afterPath="$PROJECT_DIR$/Krakensnap/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Ryan.xml" />
+      <change type="DELETED" beforePath="C:\Users\Ryan\Development\SelfDestructingMessageApp\.idea\libraries\Parse_1_5_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ryan\Development\SelfDestructingMessageApp\.idea\libraries\appcompat_v7_20_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ryan\Development\SelfDestructingMessageApp\.idea\libraries\commons_io_2_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ryan\Development\SelfDestructingMessageApp\.idea\libraries\picasso_2_3_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ryan\Development\SelfDestructingMessageApp\.idea\libraries\support_annotations_20_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Ryan\Development\SelfDestructingMessageApp\.idea\libraries\support_v4_20_0_0.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/CreateMessageActivity.java" afterPath="$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/CreateMessageActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/EditFriendsActivity.java" afterPath="$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/EditFriendsActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MessageMonster.iws" />
@@ -100,90 +111,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="EditFriendsActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="CreateMessageActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/CreateMessageActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1700">
+              <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="81" selection-end-column="11" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EditFriendsActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/EditFriendsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1802" max-vertical-offset="4165">
-              <caret line="106" column="96" selection-start-line="106" selection-start-column="96" selection-end-line="106" selection-end-column="96" />
+            <state vertical-scroll-proportion="1.7843511" vertical-offset="0" max-vertical-offset="4641">
+              <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
               <folding>
+                <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#3572#5005#0" expanded="true" />
-                <element signature="e#4994#4995#0" expanded="true" />
-                <element signature="e#5854#6586#0" expanded="true" />
-                <element signature="e#6575#6576#0" expanded="true" />
-                <element signature="e#7325#7595#0" expanded="true" />
-                <element signature="e#7576#7577#0" expanded="true" />
-                <element signature="e#8374#8672#0" expanded="true" />
-                <element signature="e#8649#8650#0" expanded="true" />
+                <element signature="e#3733#4983#0" expanded="true" />
+                <element signature="e#4751#4771#0" expanded="true" />
+                <element signature="e#4972#4973#0" expanded="true" />
+                <element signature="e#5647#6379#0" expanded="true" />
+                <element signature="e#6368#6369#0" expanded="true" />
+                <element signature="e#6458#7586#0" expanded="true" />
+                <element signature="e#7282#7552#0" expanded="true" />
+                <element signature="e#7533#7534#0" expanded="true" />
+                <element signature="e#7578#7579#0" expanded="true" />
+                <element signature="e#8332#9467#0" expanded="true" />
+                <element signature="e#8862#9160#0" expanded="true" />
+                <element signature="e#9137#9138#0" expanded="true" />
+                <element signature="e#9456#9457#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Krakensnap/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7692308" vertical-offset="102" max-vertical-offset="714">
-              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="86" max-vertical-offset="2312">
-              <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
-              <folding>
-                <element signature="e#4599#4631#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.gradle" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="message_item.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/res/layout/message_item.xml">
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1003">
-              <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_view_image.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/res/layout/activity_view_image.xml">
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="731">
-              <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -1027,7 +989,6 @@
         <option value="$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/adapter/MessageAdapter.java" />
         <option value="$PROJECT_DIR$/Krakensnap/src/main/res/layout/activity_create_message.xml" />
         <option value="$PROJECT_DIR$/Krakensnap/src/main/res/menu/create_message.xml" />
-        <option value="$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/CreateMessageActivity.java" />
         <option value="$PROJECT_DIR$/Krakensnap/src/main/res/layout/activity_view_image.xml" />
         <option value="$PROJECT_DIR$/Krakensnap/src/main/res/layout/activity_login.xml" />
         <option value="$PROJECT_DIR$/Krakensnap/src/main/res/layout/user_grid_edit_friends.xml" />
@@ -1035,9 +996,10 @@
         <option value="$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/InboxFragment.java" />
         <option value="$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/FriendsFragment.java" />
         <option value="$PROJECT_DIR$/Krakensnap/src/main/res/layout/user_grid.xml" />
-        <option value="$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/EditFriendsActivity.java" />
         <option value="$PROJECT_DIR$/Krakensnap/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/Krakensnap/build.gradle" />
+        <option value="$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/CreateMessageActivity.java" />
+        <option value="$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/EditFriendsActivity.java" />
       </list>
     </option>
   </component>
@@ -1047,9 +1009,29 @@
     </ignored-facets>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1940" />
-    <option name="width" value="1112" />
-    <option name="height" value="1024" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Probable bugs</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>ConstantConditions</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -1077,8 +1059,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1379,6 +1359,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1821,11 +1803,15 @@
       <created>1412391298399</created>
       <updated>1412391298399</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Set debuggable to false in gradle.build and  published beta version to the app store">
+      <created>1412565650340</created>
+      <updated>1412565650340</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1940" y="0" width="1112" height="1024" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1833,29 +1819,29 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.49946696" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13777778" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35777777" sideWeight="0.88752663" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44354838" sideWeight="0.4096958" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15333334" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.84444445" sideWeight="0.37739873" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2822222" sideWeight="0.6279318" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44354838" sideWeight="0.5903042" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38666666" sideWeight="0.59008527" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2491731" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37072244" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2489339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23222223" sideWeight="0.49733475" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.007995736" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13777778" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1873,7 +1859,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Implemented functionality to choose photos or videos from the gallery" />
     <MESSAGE value="Photos and videos can now be sent to friends and uploaded to Parse.com" />
     <MESSAGE value="Photos and Video can be received and viewed.  Messages self-destruct after 10 sec.  Added a send button to the Recipients activity for older devices that have trouble displaying the action bar icon." />
     <MESSAGE value="icon added" />
@@ -1898,7 +1883,8 @@
     <MESSAGE value="Email validation is now working!... but it is hacked together: TODO: Clean up and comment code in EditFriendsActivity" />
     <MESSAGE value="Added icon to Friends Fragment for when there are no friends.  Clicking on the icon will transition to the edit friends screen" />
     <MESSAGE value="Updated toast Messages, and removed test toast messages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated toast Messages, and removed test toast messages" />
+    <MESSAGE value="Set debuggable to false in gradle.build and  published beta version to the app store" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set debuggable to false in gradle.build and  published beta version to the app store" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1938,14 +1924,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/res/layout/user_item.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
           <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
           <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/utilities/ImageResizer.java">
@@ -1993,9 +1979,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/res/layout-large/activity_login.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.0349128" vertical-offset="0" max-vertical-offset="1768">
           <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
@@ -2007,6 +1990,9 @@
           </folding>
         </state>
       </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/res/values/colors.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -2017,25 +2003,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/res/layout/activity_sign_up.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1258">
           <caret line="41" column="19" selection-start-line="15" selection-start-column="4" selection-end-line="41" selection-end-column="19" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/res/layout/activity_retrieve_password.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/res/layout/activity_retrieve_password.xml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="802">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/adapter/SectionsPagerAdapter.java">
@@ -2061,9 +2047,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/res/layout/activity_create_message.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.53424656" vertical-offset="69" max-vertical-offset="833">
           <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
@@ -2074,6 +2057,9 @@
             <element signature="e#411#444#0" expanded="false" />
           </folding>
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/res/menu/create_message.xml">
@@ -2102,13 +2088,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/CreateMessageActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1241" max-vertical-offset="1564">
-          <caret line="73" column="23" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -2176,14 +2155,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="573">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/MainActivity.java">
@@ -2194,14 +2173,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/res/layout/activity_login.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="1700">
           <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/res/values/strings.xml">
@@ -2221,36 +2200,36 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/res/layout/user_grid.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-25.814816" vertical-offset="0" max-vertical-offset="1105">
           <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/res/layout/user_grid_edit_friends.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/res/layout/user_grid_edit_friends.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4939107" vertical-offset="757" max-vertical-offset="1496">
           <caret line="66" column="46" selection-start-line="66" selection-start-column="46" selection-end-line="66" selection-end-column="46" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/res/layout/fragment_inbox.xml">
-      <provider selected="true" editor-type-id="android-designer">
+      <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/res/layout/fragment_inbox.xml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="99" max-vertical-offset="901">
           <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
           <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/InboxFragment.java">
@@ -2268,43 +2247,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/res/layout/activity_view_image.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="731">
           <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/res/layout/message_item.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/res/layout/message_item.xml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1003">
           <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/EditFriendsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1802" max-vertical-offset="4165">
-          <caret line="106" column="96" selection-start-line="106" selection-start-column="96" selection-end-line="106" selection-end-column="96" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3572#5005#0" expanded="true" />
-            <element signature="e#4994#4995#0" expanded="true" />
-            <element signature="e#5854#6586#0" expanded="true" />
-            <element signature="e#6575#6576#0" expanded="true" />
-            <element signature="e#7325#7595#0" expanded="true" />
-            <element signature="e#7576#7577#0" expanded="true" />
-            <element signature="e#8374#8672#0" expanded="true" />
-            <element signature="e#8649#8650#0" expanded="true" />
-          </folding>
-        </state>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
@@ -2319,9 +2280,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="86" max-vertical-offset="2312">
           <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
-          <folding>
-            <element signature="e#4599#4631#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2335,9 +2294,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Krakensnap/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7692308" vertical-offset="102" max-vertical-offset="714">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/CreateMessageActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1700">
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="81" selection-end-column="11" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Krakensnap/src/main/java/com/spacecasestudios/messagemonster/ui/EditFriendsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.7843511" vertical-offset="0" max-vertical-offset="4641">
+          <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#3733#4983#0" expanded="true" />
+            <element signature="e#4751#4771#0" expanded="true" />
+            <element signature="e#4972#4973#0" expanded="true" />
+            <element signature="e#5647#6379#0" expanded="true" />
+            <element signature="e#6368#6369#0" expanded="true" />
+            <element signature="e#6458#7586#0" expanded="true" />
+            <element signature="e#7282#7552#0" expanded="true" />
+            <element signature="e#7533#7534#0" expanded="true" />
+            <element signature="e#7578#7579#0" expanded="true" />
+            <element signature="e#8332#9467#0" expanded="true" />
+            <element signature="e#8862#9160#0" expanded="true" />
+            <element signature="e#9137#9138#0" expanded="true" />
+            <element signature="e#9456#9457#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

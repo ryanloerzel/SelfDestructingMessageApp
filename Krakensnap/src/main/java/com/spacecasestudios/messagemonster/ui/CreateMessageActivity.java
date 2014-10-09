@@ -1,3 +1,10 @@
+/**
+* File CreateMessageActivity.java
+* Author: Ryan Loerzel
+* Created: July 16, 2014
+* Description: Allows users to input text, which will later be sent as message
+*/
+
 package com.spacecasestudios.messagemonster.ui;
 
 import android.app.Activity;
@@ -15,20 +22,20 @@ import com.spacecasestudios.messagemonster.R;
 import com.spacecasestudios.messagemonster.utilities.ParseConstants;
 
 public class CreateMessageActivity extends Activity {
+
+    // Declare ui variables
     protected EditText mMessageText;
     protected Button mSendTextMessage;
     protected String mMessage;
-    protected MenuItem mSendMenuItem;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_message);
 
+        //initiate ui variables
         mMessageText = (EditText)findViewById(R.id.editText);
-
         mSendTextMessage = (Button) findViewById(R.id.sendTextMessage);
-
         mSendTextMessage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -65,11 +72,17 @@ public class CreateMessageActivity extends Activity {
         return super.onOptionsItemSelected(item);
     }
 
-    /*Check to make sure the user has  entered at least one character.
-    // Transition to the Recipients Activity class
-     */
     private void sendTextMessage() {
-        mMessage = mMessageText.getText().toString();
+        /**
+         * Prompts user to enter text and checks that the
+         * message length is greater than or equal to one character.
+         * User will be taken to the Recipients Activity to choose a message recipient
+         * @param Nothing.
+         * @return Nothing.
+         */
+
+        //noinspection ConstantConditions
+        mMessage =  mMessageText.getText().toString();
         int length = mMessageText.getText().length();
         if(length < 1){
             Toast.makeText(CreateMessageActivity.this, "Please enter a message.", Toast.LENGTH_LONG).show();
