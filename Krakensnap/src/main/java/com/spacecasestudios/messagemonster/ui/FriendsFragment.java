@@ -1,3 +1,9 @@
+/**************************************************************************************************
+ * File FriendsFragment.java
+ * Author: Ryan Loerzel
+ * Created: July 16, 2014
+ * Description: Display Friends in a grid view
+ **************************************************************************************************/
 package com.spacecasestudios.messagemonster.ui;
 
 import android.app.AlertDialog;
@@ -23,13 +29,15 @@ import com.spacecasestudios.messagemonster.utilities.ParseConstants;
 
 import java.util.List;
 
-/**
- * Created by Ryan on 6/14/2014.
- */
+
 public class FriendsFragment extends Fragment {
 
     public static final String TAG = FriendsFragment.class.getSimpleName();
 
+
+    /**
+     * Declare variables for user interface elements and user objects
+     */
     protected List<ParseUser> mFriends;
     protected ParseRelation<ParseUser> mFriendsRelation;
     protected ParseUser mCurrentUser;
@@ -83,12 +91,6 @@ public class FriendsFragment extends Fragment {
                        mEmptyFriendsImage.setVisibility(View.INVISIBLE);
                    }
 
-                   String[] usernames = new String[mFriends.size()];
-                   int i = 0;
-                   for (ParseUser user : mFriends) {
-                       usernames[i] = user.getUsername();
-                       i++;
-                   }
                    if (mGridView.getAdapter() == null){
                        UserAdapter adapter = new UserAdapter(getActivity(), mFriends);
                        mGridView.setAdapter(adapter);

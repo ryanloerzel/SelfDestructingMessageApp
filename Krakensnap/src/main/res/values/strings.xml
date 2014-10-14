@@ -60,5 +60,8 @@
     <string name="menu_message_label">send a message</string>
     <string name="title_activity_create_message">CreateMessageActivity</string>
     <string name="label_create_a_message">Create Message</string>
+    <string name="NoNetworkMessage">Krakensnap requires an active internet connection to use.</string>
+    <string name="NoNetworkTitle">Network Required</string>
+    <string name="no_network">Network Required</string>
 
 </resources>

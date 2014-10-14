@@ -1,3 +1,9 @@
+/**************************************************************************************************
+ * File InboxFragment.java
+ * Author: Ryan Loerzel
+ * Created: July 16, 2014
+ * Description: Retrieve Messages
+ **************************************************************************************************/
 package com.spacecasestudios.messagemonster.ui;
 
 import android.content.Intent;
@@ -25,9 +31,6 @@ import com.spacecasestudios.messagemonster.utilities.ParseConstants;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Ryan on 6/14/2014.
- */
 public class InboxFragment extends ListFragment {
     protected List<ParseObject> mMessages;
     protected SwipeRefreshLayout mSwipeRefreshLayout;

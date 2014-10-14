@@ -196,7 +196,7 @@ public class EditFriendsActivity extends Activity {
 
     };
 
-    private void checkEmail(final int position) {
+    private void checkEmail(final int position) throws NullPointerException {
     /**
      * Retrieve the email from the parse user object at the current position.
      * The current position will be the contact icon touched by the user
@@ -214,28 +214,30 @@ public class EditFriendsActivity extends Activity {
             @Override
             public void onClick(View view) {
 
-                 mEmail =  mContactEmail.getText().toString();
-                if (mEmail.equals(email)) {
-                    Toast.makeText(EditFriendsActivity.this, "Success! " + email + " has been added to your friends.", Toast.LENGTH_SHORT).show();
-                    mFriendsRelation.add(mUsers.get(position));
-                    mCheckImageView.setVisibility(View.VISIBLE);
-                    mCurrentUser.saveInBackground(new SaveCallback() {
-                        @Override
-                        public void done(ParseException e) {
-                            if (e != null) {
-                                Log.e(TAG, e.getMessage());
-                            }
+            //Preconditions.checkArgument(mContactEmail.getText().toString() != null);
+            mEmail =  mContactEmail.getText().toString();
+
+            if (mEmail.equals(email)) {
+                Toast.makeText(EditFriendsActivity.this, "Success! " + email + " has been added to your friends.", Toast.LENGTH_SHORT).show();
+                mFriendsRelation.add(mUsers.get(position));
+                mCheckImageView.setVisibility(View.VISIBLE);
+                mCurrentUser.saveInBackground(new SaveCallback() {
+                    @Override
+                    public void done(ParseException e) {
+                        if (e != null) {
+                            Log.e(TAG, e.getMessage());
                         }
-                    });
+                    }
+                });
 
 
-                } else {
-                    Toast.makeText(EditFriendsActivity.this, "Sorry, invalid email", Toast.LENGTH_SHORT).show();
-                    mGridView.setItemChecked(position,false);
-                }
-                showEmailValidationTextField(Boolean.FALSE);
+            } else {
+                Toast.makeText(EditFriendsActivity.this, "Sorry, invalid email", Toast.LENGTH_SHORT).show();
+                mGridView.setItemChecked(position,false);
             }
-        });
+            showEmailValidationTextField(Boolean.FALSE);
+        }
+    });
 
 
     }
